@@ -138,7 +138,7 @@ a#speaker1.thumbnail
   padding: 0px;
   text-decoration: none;
   background-repeat: no-repeat;
-  background-size: 100% 300px;
+  background-size: 100%;
 }
 a#speaker2.thumbnail
 {
@@ -148,7 +148,7 @@ a#speaker2.thumbnail
   height:300px;
   text-decoration: none;
   background-repeat: no-repeat;
-  background-size: 100% 300px;
+  background-size: 100%;
 }
 a#speaker3.thumbnail
 {
@@ -161,7 +161,7 @@ a#speaker3.thumbnail
   padding-bottom: 0px;
   padding-left: 0px;
   background-repeat: no-repeat;
-  background-size: 100% 300px;
+  background-size: 100%;
 }
 a#speaker4.thumbnail
 {
@@ -170,7 +170,7 @@ a#speaker4.thumbnail
   width: 100% !important;
   height:300px;
   background-repeat: no-repeat;
-  background-size: 100% 300px;
+  background-size: 100%;
 }
 a#speaker5.thumbnail
 {
@@ -183,7 +183,7 @@ a#speaker5.thumbnail
   padding-bottom: 0px;
   padding-left: 0px;
   background-repeat: no-repeat;
-  background-size: 100% 300px;
+  background-size: 100%;
 }
 a#speaker6.thumbnail
 {
@@ -192,13 +192,14 @@ a#speaker6.thumbnail
   width: 100% !important;
   height:300px;
   background-repeat: no-repeat;
-  background-size: 100% 300px;
+  background-size: 100%;
 }
 div.name
 {
-  margin:50% 12%;
   font-size: 22px;
   color:white;
+  padding-top: 224px;
+  padding-left: 39px;
 }
 #underline
 {
@@ -254,56 +255,63 @@ div#second-row
   padding-left: 0px;
   padding-right: 0px;
 }
-@media (max-width: 768px) 
+.bars
 {
-  body {
-    padding-top: 30px;
-  }
+  border-radius: 0px !important;
 }
-
-@media (min-width: 768px) 
+.page
 {
-  body {
-    padding-top:    20px;
-    padding-bottom: 70px;
-  }
+  height:452px;
 }
-#page2
+  #page2
 {
   background-image: url('../images/page2.jpg');
   background-color: #000000;
   width:100%;
-  height:400px;
+  height:100%;
   background-repeat: no-repeat;
-  background-size: 100% 400px;
+  background-size: 100%;
+}
+.barcontainer
+{
+  padding-top: 8%;
+  height: 78%;
+}
+.bar1
+{
+  padding-left: 17%;
+  height: 29%;
+}
+.bar2 
+{
+ padding-left: 22%;
+/* padding-top: 2%; */
+height: 29%;
+margin-top: 2%;
 }
 .brownbar1
 {
-  width: 70%;
-  height: 15%;
-  opacity: 0.8;
-  background-color: #9D4714;
-  margin-top: 12%;
-  margin-left: 18%;
-  text-align:justify;
-  font-size: 30px;
-  color: #FFFFFF;
-  padding-left: 35px;
-  font-family: 
+  width: 85%;
+opacity: 0.8;
+background-color: #9D4714;
+text-align: justify;
+font-size: 30px;
+color: #FFF;
+padding-left: 6%;
+padding-top: 1%;
+padding-bottom: 1%;
 }
 .brownbar2 
 {
-  width: 63%;
-  height: 15%;
-  opacity: 0.8;
-  background-color: #9D4714;
-  margin-top: 2%;
-  margin-left: 22%;
-  text-align:justify;
-  font-size: 30px;
-  color: #FFFFFF;
-  padding-top: 9px;
-  padding-left: 125px;
+  width: 78%;
+opacity: 0.8;
+background-color: #9D4714;
+text-align: justify;
+font-size: 30px;
+color: #FFF;
+padding-left: 19%;
+padding-top: 1%;
+padding-bottom: 1%;
 }
 .line
 {
@@ -315,13 +323,33 @@ div#second-row
   text-align: center;
   height: 66%;
 }
-.redbar
+.redbarcontainer
 {
-  width: 45%;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 1%;
-  height: 0%;
+  width: 100%;
+  height: 23%;
+  padding-left: 27%;
+  padding-top: 2%;
+}
+.redbarr1
+{
+    width: 18%;
+    height: 100%;
+    float: left;
+    padding-left: 2%;
+}
+.redbarr2
+{
+    width: 18%;
+    height: 100%;
+    float: left;
+    padding-left: 1%;
+}
+.redbarr3
+{
+    width: 18%;
+    height: 100%;
+    float: left;
+    padding-left: 15%;
 }
 #redbar1 
 {
@@ -354,8 +382,8 @@ div#second-row
   width: 57px;
   border-radius: 50%;
   background-color: #CF0010;
-  margin-left: 78%;
-  margin-top: -10%;
+  /*margin-left: 78%;
+  margin-top: -10%;*/
   padding-left: 28px;
   text-align: center;
   font-size: 39px;
