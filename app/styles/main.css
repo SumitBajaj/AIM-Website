@@ -141,7 +141,7 @@ a#speaker1.thumbnail
 }
 a#speaker2.thumbnail
 {
-  background-image: url('../images/speaker2.png');
+  background-image: url('../images/icons-images/r1c2.jpg');
   /*background-color: #E87E04;
   width: 100% !important;
   height:300px;
@@ -167,7 +167,7 @@ a#speaker3.thumbnail
 }
 a#speaker4.thumbnail
 {
-  background-image: url('../images/speaker4.png');
+  background-image: url('../images/icons-images/r2c1.jpg');
   /*background-color: #E87E04;
   width: 100% !important;
   height:300px;
@@ -192,7 +192,7 @@ a#speaker5.thumbnail
 }
 a#speaker6.thumbnail
 {
-  background-image: url('../images/speaker6.png');
+  background-image: url('../images/icons-images/r2c3.jpg');
   /*background-color: #E87E04;
   width: 100% !important;
   height:300px;
@@ -604,6 +604,13 @@ div.thumbnail.bars.captionbar
 }
 p.whyTextPara
 {
-  font-family: times;
-  font-size: 20px;
+  font-family: helvetica;
+  font-size: 16px;
+  padding: 6% 6%;
+}
+button.yellowButton
+{
+  margin: 0% 31%;
+  background-color:#f8bf3a;
+  color:white;
 }
