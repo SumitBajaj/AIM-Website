@@ -4,38 +4,38 @@
   opacity:.80;
 
 }
-
-#bs-example-navbar-collapse-1 ul
+.fixedBorder
 {
-  width: 100%;
+  border-width: 0px 0px 0px !important;
 }
-
 #bs-example-navbar-collapse-1 ul li
 {
-	width: 14.27%;
+	width: 14.28%;
 	font-size: 18px;
 }
 #bs-example-navbar-collapse-1 ul li:nth-child(odd)
  {
-    background: #000000;
+   
+    background: #202020;
+
 }
+.navv {
+    margin: 0px !important;
+    float:none !important;
+}
+
 
 #bs-example-navbar-collapse-1 ul li:nth-child(even)
  {
-    background: #202020;
+     background: #000000;
 }
 #bs-example-navbar-collapse-1 ul li:last-child
- {
-    background: #C5010F;
-    float:right;
+{
+  background: #C5010F;
+  float:right;
 }
 
-#bs-example-navbar-collapse-1
-{
-	background-color:#C5010F;
-	padding-right: 0px;
-	padding-left: 0px;
-}
+
 #bs-example-navbar-collapse-1 .navbar-nav > li > a 
 {
 text-align: center;
@@ -56,7 +56,7 @@ color:#FEFEFE;
 {
   margin-bottom: 0px !important;
   padding: 0px !important;
-  border:1px solid grey;
+  border:0px !important;
   border-radius: 0px !important;
 }
 a.speaker
@@ -131,8 +131,8 @@ a#speaker1.thumbnail
 {
   background-image: url('../images/speaker1.png');
   background-color: #E87E04;
-  width: 100% !important;
-  height:300px;
+  /*width: 100% !important;
+  height:300px;*/
   padding: 0px;
   text-decoration: none;
   background-repeat: no-repeat;
@@ -142,8 +142,8 @@ a#speaker2.thumbnail
 {
   background-image: url('../images/speaker2.jpg');
   background-color: #000000;
-  width: 100% !important;
-  height:300px;
+  /*width: 100% !important;
+  height:300px;*/
   text-decoration: none;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -153,8 +153,8 @@ a#speaker3.thumbnail
 {
   background-image: url('../images/speaker3.png');
   background-color: #000000;
-  width: 100% !important;
-  height:300px;
+  /*width: 100% !important;
+  height:300px;*/
   text-decoration: none;
   padding-top: 0px;
   padding-bottom: 0px;
@@ -166,8 +166,8 @@ a#speaker4.thumbnail
 {
   background-image: url('../images/speaker4.jpg');
   background-color: #000000;
-  width: 100% !important;
-  height:300px;
+  /*width: 100% !important;
+  height:300px;*/
   background-repeat: no-repeat;
   background-size: 100%;
   border-bottom: 14px solid #E28100;
@@ -176,8 +176,8 @@ a#speaker5.thumbnail
 {
   background-image: url('../images/speaker5.png');
   background-color: #000000;
-  width: 100% !important;
-  height:300px;
+  /*width: 100% !important;
+  height:300px;*/
   text-decoration: none;
   padding-top: 0px;
   padding-bottom: 0px;
@@ -189,8 +189,8 @@ a#speaker6.thumbnail
 {
   background-image: url('../images/speaker6.jpg');
   background-color: #000000;
-  width: 100% !important;
-  height:300px;
+  /*width: 100% !important;
+  height:300px;*/
   background-repeat: no-repeat;
   background-size: 100%;
   border-bottom: 14px solid #327EB8;
@@ -220,27 +220,37 @@ img.bigImage
 }
 .navbar
 {
- 	border-radius: 0px;
-  margin-bottom: 0px !important;
+border-radius: 0px;
+margin-bottom: 0px !important;
+width: 90%;
+margin-left: 5%;
 }
 .jumbotron .thumbnail
 {
  	padding-left: 0px;
  	margin-left: 0px;
 }
+body
+{
+  background: black ;
+}
 .container{
-  width:100% !important;
+  width:90% !important;
   padding:0px !important;
 }
 .newRowOne 
 {
- padding-top:0px !important;
- margin-top:51px;
+  padding-top:0px !important;
+  margin-top:51px;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
 }
 .newRowTwo
 {
- padding-top:0px !important;
- margin-top:0px !important;
+  padding-top:0px !important;
+  margin-top:0px !important;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
 }
 
 div.first-row
@@ -272,11 +282,16 @@ div.colPadding
 {
   border-radius: 0px !important;
 }
+.barsOne
+{
+  border-radius: 0px !important;
+  margin-bottom: 0px !important;
+  border:0px !important;
+}
   #page2
 {
   background-image: url('../images/page2.jpg');
   background-color: #000000;
-  width:100%;
   height:452px;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -323,12 +338,8 @@ padding-bottom: 1%;
 .line
 {
   background-color: #FFFFFF;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
   font-size: 37px;
   text-align: center;
-  height: 66%;
 }
 .redbarcontainer
 {
@@ -540,8 +551,14 @@ div.captionHeightOne
 .rowSpeakers
 {
   background: #F2F2F2;
-  margin-top: 3%;
   padding-bottom: 5%;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+.rowSpeaker
+{
+  margin-left: 0px !important;
+  margin-right: 0px !important;
 }
 
 .white
