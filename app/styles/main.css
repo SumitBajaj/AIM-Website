@@ -149,7 +149,7 @@ a#speaker2.thumbnail
   text-decoration: none;
   background-repeat: no-repeat;
   background-size: 100%;
-  border-bottom: 14px solid #86E2D5;
+  border-bottom: 14px solid #86E2D5 !important;
 }
 a#speaker3.thumbnail
 {
@@ -174,7 +174,7 @@ a#speaker4.thumbnail
   padding: 0px;*/
   background-repeat: no-repeat;
   background-size: 100%;
-  border-bottom: 14px solid #E28100;
+  border-bottom: 14px solid #E28100 !important;
 }
 a#speaker5.thumbnail
 {
@@ -199,7 +199,7 @@ a#speaker6.thumbnail
   padding: 0px;*/
   background-repeat: no-repeat;
   background-size: 100%;
-  border-bottom: 14px solid #327EB8;
+  border-bottom: 14px solid #327EB8 !important;
 }
 .navImage
 {
@@ -298,6 +298,7 @@ div.colPadding
   margin-bottom: 0px !important;
   border:0px !important;
 }
+
   #page2
 {
   background-image: url('../images/page2.jpg');
@@ -604,6 +605,13 @@ div.thumbnail.bars.captionbar
 }
 p.whyTextPara
 {
-  font-family: times;
-  font-size: 20px;
+  font-family: helvetica;
+  font-size: 16px;
+  padding: 6% 6%;
+}
+button.yellowButton
+{
+  margin: 0% 31%;
+  background-color:#f8bf3a;
+  color:white;
 }
