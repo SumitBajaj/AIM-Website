@@ -141,7 +141,7 @@ a#speaker1.thumbnail
 }
 a#speaker2.thumbnail
 {
-  background-image: url('../images/icons-images/r1c2.jpg');
+  background-image: url('../images/speaker2.png');
   /*background-color: #E87E04;
   width: 100% !important;
   height:300px;
@@ -149,7 +149,7 @@ a#speaker2.thumbnail
   text-decoration: none;
   background-repeat: no-repeat;
   background-size: 100%;
-  border-bottom: 14px solid #86E2D5;
+  border-bottom: 14px solid #86E2D5 !important;
 }
 a#speaker3.thumbnail
 {
@@ -167,14 +167,14 @@ a#speaker3.thumbnail
 }
 a#speaker4.thumbnail
 {
-  background-image: url('../images/icons-images/r2c1.jpg');
+  background-image: url('../images/speaker4.png');
   /*background-color: #E87E04;
   width: 100% !important;
   height:300px;
   padding: 0px;*/
   background-repeat: no-repeat;
   background-size: 100%;
-  border-bottom: 14px solid #E28100;
+  border-bottom: 14px solid #E28100 !important;
 }
 a#speaker5.thumbnail
 {
@@ -192,14 +192,14 @@ a#speaker5.thumbnail
 }
 a#speaker6.thumbnail
 {
-  background-image: url('../images/icons-images/r2c3.jpg');
+  background-image: url('../images/speaker6.png');
   /*background-color: #E87E04;
   width: 100% !important;
   height:300px;
   padding: 0px;*/
   background-repeat: no-repeat;
   background-size: 100%;
-  border-bottom: 14px solid #327EB8;
+  border-bottom: 14px solid #327EB8 !important;
 }
 .navImage
 {
@@ -298,6 +298,7 @@ div.colPadding
   margin-bottom: 0px !important;
   border:0px !important;
 }
+
   #page2
 {
   background-image: url('../images/page2.jpg');
