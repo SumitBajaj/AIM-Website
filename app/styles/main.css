@@ -425,15 +425,20 @@ padding-bottom: 1%;
   padding-top: 2%;
   height: 60px;
 }
-hr 
+hr.blueDottedLine
 {
   border-top: 2.5px dotted #2479a1;
   margin-top:2%;
 }
 
-.dottedLine
+hr.whiteDottedLine
 {
  border-top: 2.5px dotted white;
+}
+
+hr.orangeDottedLine
+{
+  border-top: 2.5px dotted #e87e04;
 }
 
 a#speaker11.thumbnail
@@ -614,4 +619,60 @@ button.yellowButton
   margin: 0% 31%;
   background-color:#f8bf3a;
   color:white;
+}
+.venueColor
+{
+  color:#e87e04;
+}
+
+.thumbnailheight
+{
+  border:0px !important;
+  background: none;
+}
+.venueColPadding
+{
+  padding-left: 2% !important;
+  padding-right: 0% !important;
+}
+.blackBorder
+{
+  border:1px solid black;
+  height: 240px !important;
+}
+.setFont
+{
+  font-size: 17px;
+  font-family: helvetica;
+}
+div.colHeight
+{
+  padding-top:8%;
+}
+.boldFont
+{
+  font-weight: bold;
+}
+.connect
+{
+  float: left;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: #e87e04;
+  text-align: center;
+  font-size: 30px;
+  color:white;
+}
+.travelFont
+{
+  font-size: 25px;
+}
+.rowHeight
+{
+  height:300px;
+}
+.imgheight
+{
+  height: 250px;
 }
