@@ -11,7 +11,7 @@
 #bs-example-navbar-collapse-1 ul li
 {
 	width: 14.28%;
-	font-size: 18px;
+	font-size: 130%;
 }
 #bs-example-navbar-collapse-1 ul li:nth-child(odd)
  {
@@ -648,4 +648,15 @@ div.colHeight
 .imgheight
 {
   height: 250px;
+}
+
+.smallRow
+{
+  height:180px;
+}
+
+@media screen and ( max-width: 750px ) {
+   #bs-example-navbar-collapse-1 ul li{
+     font-size: 70%;
+  }
 }
