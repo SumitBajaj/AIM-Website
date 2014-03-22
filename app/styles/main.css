@@ -156,6 +156,10 @@ padding-bottom: 14px;
 {
   font-size: 9px;
 }
+.rowWhyAttend
+{
+  height:2033px;
+}
 }
 
 @media (min-width: 768px){ 
@@ -247,6 +251,18 @@ margin-top: 2%;
   font-size: 32px;
   padding-top: 2%;
 }
+.rowWhyAttend
+{
+  height:802px;
+}
+.smallRow
+{
+  height:180px;
+}
+.rowHeight
+{
+  height:300px;
+}
 }
 @media(max-width: 1208px ) {
 
@@ -307,6 +323,14 @@ height: 288px;
 font-size: 22px;
 padding-top: 25px;
 padding-bottom: 25px;
+}
+.rowWhyAttend
+{
+  height:1415px;
+}
+.rowHeight
+{
+  height:300px;
 }
 }
 
@@ -374,6 +398,24 @@ padding-bottom: 25px;
 #pfont {
 font-size: 15px;
 }
+
+.rowWhyAttend
+{
+  height:802px;
+}
+.smallRow
+{
+  height:180px;
+}
+div.colHeight
+{
+  padding-top:8%;
+}
+.rowHeight
+{
+  height:300px;
+}
+
 }
 
 #speaker1
@@ -800,6 +842,7 @@ button.yellowButton
 .venueColor
 {
   color:#e87e04;
+  display:inline;
 }
 
 .thumbnailheight
@@ -822,10 +865,7 @@ button.yellowButton
   font-size: 17px;
   font-family: helvetica;
 }
-div.colHeight
-{
-  padding-top:8%;
-}
+
 .boldFont
 {
   font-weight: bold;
@@ -844,10 +884,7 @@ div.colHeight
 .travelFont
 {
   font-size: 25px;
-}
-.rowHeight
-{
-  height:300px;
+  padding-left: 4%;
 }
 .imgheight
 {
@@ -856,5 +893,18 @@ div.colHeight
 
 .smallRow
 {
-  height:180px;
+  height:260px;
+}
+.page5
+{
+  background-color:#159179;
+}
+hr.greenDottedLine
+{
+  border-top: 2.5px dotted #5cb285;
+}
+
+.rowPaddingBottom
+{
+  padding-bottom: 0%;
 }
