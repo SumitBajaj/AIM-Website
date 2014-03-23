@@ -40,6 +40,9 @@
   background: #C5010F;
 }
 
+section{
+padding-top: 50px;
+}
 
 #bs-example-navbar-collapse-1 .navbar-nav > li > a 
 {
