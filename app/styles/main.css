@@ -160,6 +160,16 @@ padding-bottom: 14px;
 {
   height:2033px;
 }
+.greenButton
+{
+  color:aquamarine;
+}
+.redButton
+{
+  color:#CF0010;
+  margin-left: 50%;
+}
+
 }
 
 @media (min-width: 768px){ 
@@ -263,6 +273,15 @@ margin-top: 2%;
 {
   height:300px;
 }
+.greenButton
+{
+  color:aquamarine;
+}
+.redButton
+{
+  color:#CF0010;
+  margin-left: 50%;
+}
 }
 @media(max-width: 1208px ) {
 
@@ -331,6 +350,15 @@ padding-bottom: 25px;
 .rowHeight
 {
   height:300px;
+}
+.greenButton
+{
+  color:aquamarine;
+}
+.redButton
+{
+  color:#CF0010;
+  margin-left: 50%;
 }
 }
 
@@ -415,7 +443,15 @@ div.colHeight
 {
   height:300px;
 }
-
+.greenButton
+{
+  color:aquamarine;
+}
+.redButton
+{
+  color:#CF0010;
+  margin-left: 50%;
+}
 }
 
 #speaker1
@@ -908,3 +944,4 @@ hr.greenDottedLine
 {
   padding-bottom: 0%;
 }
+
