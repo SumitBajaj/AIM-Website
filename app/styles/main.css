@@ -21,6 +21,11 @@
     float:none !important;*/
     background: black;
 }
+.nav > li
+{
+  cursor: pointer;
+}
+
 .nav > li > a
 {
   padding:15px 50px;

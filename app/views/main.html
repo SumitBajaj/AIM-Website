@@ -12,12 +12,12 @@
       </div>
     <div class="collapse-navbar-collapse collapseOne" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navv">
-        <li ><a  href="index.html">Home</a></li>
-        <li><img src="../images/speaker.png" alt="..." class="navImage"><a href="#speakers">Speakers</a></li>
-        <li><img src="../images/information.png" alt="..." class="navImage"><a href="#">Why Attend</a></li>
-        <li><img src="../images/question.png" alt="..." class="navImage"><a href="#">What We Did</a></li>
-        <li><img src="../images/venue.png" alt="..." class="navImage"><a href="#">Venue</a></li>
-        <li><img src="../images/schedule.png" alt="..." class="navImage"><a href="#">Schedule</a></li>
+        <li ><a ng-click="scrollTo('home')">Home</a></li>
+        <li><img src="../images/speaker.png" alt="..." class="navImage"><a ng-click="scrollTo('speakers')">Speakers</a></li>
+        <li><img src="../images/information.png" alt="..." class="navImage"><a ng-click="scrollTo('why_attend')">Why Attend</a></li>
+        <li><img src="../images/question.png" alt="..." class="navImage"><a ng-click="scrollTo('what_we_did')">What We Did</a></li>
+        <li><img src="../images/venue.png" alt="..." class="navImage"><a ng-click="scrollTo('venue')">Venue</a></li>
+        <li><img src="../images/schedule.png" alt="..." class="navImage"><a ng-click="scrollTo('schedule')">Schedule</a></li>
         <li><a href="#">Register</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
@@ -25,8 +25,8 @@
   </nav>
 </div>
 <!-- Navbar ends here -->
-<!--Page1 starts from here -->
-<!-- <div class="jumbotron"> -->
+  <!--Page1 starts from here -->
+  <section id="home">
   <div class="row newRowOne">
     <div class="col-sm-6 col-md-4 colPadding">
       <a href="#" class="thumbnail speaker" id="speaker1">
@@ -64,93 +64,64 @@
       </a>
     </div>
   </div>
+  </section>
   <!-- Page1 ends here -->
   
   <!-- Page 2 starts from here -->  
-  <div class="row rowSpeaker aimPage">
-  <!--<div class="row rowSpeaker">
-    <div class="col-lg-16">
-      <div class="thumbnail barsOne" id = "page2">
-        <div class="redbarcontainer">
-          <div class="redbarr1">
-           <div id="redbar1" class="white">Aspire.
-          </div>
-          </div>
-          <div class="redbarr2">
-          <div id="redbar2" class="white">Inspire..
+  <section id="what_we_did">
+  <div class="row rowSpeaker aimPage">  
+    <div class="row rowSpeaker ">
+      <div class="col-sm-3 col-md-3 col-lg-3">
+      </div>
+      <div class="col-sm-2 col-md-2 col-lg-2">
+        <div class="redbarr1">
+          <div class="redbar floatbar white">Aspire.
           </div>
         </div>
+      </div>
+      <div class="col-sm-2 col-md-2 col-lg-2">
+        <div class="redbarr2">
+          <div class="redbar white">Inspire..
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-2 col-md-2 col-lg-2">
         <div class="redbarr3">
-          <div id="redbar3" class="white">Motivate...
+          <div class="redbar white">Motivate...
           </div> 
         </div>
-        </div>
-        <div class="barcontainer">
-          <div class="bar1">
-        <div class="brownbar1 white">Bringing to you thought leaders and industry experts
-        </div>
+      </div>      
+    </div>
+    <div class="barcontainer">
+      <div class="row rowSpeaker ">
+      <div class="col-sm-2 col-md-2 col-lg-2">
       </div>
-      <div class="bar2">
-        <div class="brownbar2 white">22, December 2014, Gurgaon
-        </div>
-        </div>
+      <div id="bars" class="col-sm-8 col-md-8 col-lg-8 brownbar1 white">
+       <span> Bringing to you thought leaders and industry experts</span>
+      </div>
+      <div class="col-sm-2 col-md-2 col-lg-2">
       </div>
     </div>
-    </div>
-  </div>-->
+    <div class="row rowSpeaker ">    
+      <div class="col-sm-3 col-md-2 col-lg-3">
+      </div>
+      <div id="bars" class="col-sm-6 col-md-8 col-lg-6 brownbar2 white">
+        <span>22, December 2014, Gurgaon</span>
+      </div>
+    </div>  
+  </div>
   <div class="row rowSpeaker ">
-    <div class="col-sm-3 col-md-3 col-lg-3">
-    </div>
-    <div class="col-sm-2 col-md-2 col-lg-2">
-      <div class="redbarr1">
-        <div class="redbar floatbar white">Aspire.
-        </div>
-      </div>
-    </div>
-    <div class="col-sm-2 col-md-2 col-lg-2">
-      <div class="redbarr2">
-        <div class="redbar white">Inspire..
-        </div>
-      </div>
-    </div>
-    <div class="col-sm-2 col-md-2 col-lg-2">
-      <div class="redbarr3">
-        <div class="redbar white">Motivate...
-        </div> 
-      </div>
-    </div>      
-  </div>
-  <div class="barcontainer">
-    <div class="row rowSpeaker ">
-    <div class="col-sm-2 col-md-2 col-lg-2">
-    </div>
-    <div id="bars" class="col-sm-8 col-md-8 col-lg-8 brownbar1 white">
-     <span> Bringing to you thought leaders and industry experts</span>
-    </div>
-    <div class="col-sm-2 col-md-2 col-lg-2">
-    </div>
-  </div>
-
-  <div class="row rowSpeaker ">    
-    <div class="col-sm-3 col-md-2 col-lg-3">
-    </div>
-    <div id="bars" class="col-sm-6 col-md-8 col-lg-6 brownbar2 white">
-      <span>22, December 2014, Gurgaon</span>
-    </div>
-  </div>  
-</div>
-</div>
- <div class="row rowSpeaker ">
     <div class="col-sm-12 col-md-12 col-lg-12 colPadding line"> 
       Learn from the gurus.Grow your network.Expand your knowledge.
       <br>
       Walk out inspired.    
     </div>
-</div>
+  </div>
+  <section>
   <!-- Page2 ends here -->
   
   <!-- Page 3 starts from here -->
-
+  <section id="speakers">
   <div class="row marketing rowSpeakers">
     <div class="speakers">
         SPEAKERS
@@ -226,13 +197,13 @@
         </div>
       </div>
     </div>
-
   </div>
-    <!-- Page3 ends here -->
+  </section>
+  <!-- Page3 ends here -->
   
   <!-- Page 4 starts from here -->
-
-<div class="row marketing page4 rowWhyAttend">
+  <section id="why_attend">
+  <div class="row marketing page4 rowWhyAttend">
     <div class="speakers">
         <span class="white">WHY ATTEND
     </div>
@@ -340,7 +311,11 @@
         </div>
       </div>
   </div>
-
+  </section>
+  <!-- Page4 ends here -->
+  
+  <!-- Page 5 starts from here -->
+  <section id="venue">
   <div class="row-marketing rowSpeakers rowPaddingBottom">
     <div class="speakers">
         <span class="venueColor">VENUE</span>
@@ -404,14 +379,18 @@
         great talks.   
       </div>
     </div>
-   </div>
-   <div class="row-marketing rowSpeakers page5">
+   </div>   
+  </div>
+  </section>
+  <!-- Page5 ends here -->
+
+  <!-- Page 6 starts from here -->
+  <!--<section id="schedule">
+  <div class="row-marketing page5">
     <div class="speakers">
         <span class="white">SCHEDULE</span>
     </div>
     <hr class="greenDottedLine">
   </div>
-
-
-
-<!-- </div> -->
+  </section>-->
+  <!-- Page6 ends here -->
