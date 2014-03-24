@@ -170,6 +170,10 @@ padding-bottom: 14px;
 {
   font-size: 0;
 }
+.whiteButton
+{
+  font-size: 0;
+}
 
 }
 
@@ -264,7 +268,7 @@ margin-top: 2%;
 }
 .rowWhyAttend
 {
-  height:802px;
+  height: 100%;
 }
 .smallRow
 {
@@ -299,6 +303,12 @@ margin-top: 2%;
 {
   background-color: #000;
 }
+ .whiteButton
+  {
+    color: #C3D1DA;
+    margin-left: 49%;
+    margin-top: 4%;
+  }
 /*@media(max-width: 1208px ) {
 
 .nav > li > a{
@@ -422,6 +432,13 @@ padding-bottom: 25px;
   {
     padding: 21px 50px;
   }
+    .whiteButton
+  {
+    color: #C3D1DA;
+    margin-left: 49%;
+    margin-top: 4%;
+  }
+
 }
 @media (min-width: 991px) and (max-width: 1365px){ 
 
@@ -490,7 +507,7 @@ font-size: 15px;
 
 .rowWhyAttend
 {
-  height:802px;
+  height:100%;
 }
 .smallRow
 {
@@ -568,6 +585,12 @@ div.colHeight
 {
   padding: 21px 48px;
 }
+  .whiteButton
+  {
+    color: #C3D1DA;
+    margin-left: 49%;
+    margin-top: 4%;
+  }
 }
 
 #speaker1
@@ -958,6 +981,7 @@ div.captionHeightOne
   background-color: #3c80af;
   margin-left: 0px !important;
   margin-right: 0px !important;
+  padding-bottom:2%;
 }
 
 .columnPadding
