@@ -26,10 +26,10 @@
   cursor: pointer;
 }
 
-.nav > li > a
+/*.nav > li > a
 {
-  padding:15px 50px;
-}
+  padding:17px 50px;
+}*/
 
 #bs-example-navbar-collapse-1 ul li:nth-child(even)
  {
@@ -291,6 +291,13 @@ margin-top: 2%;
   margin-left: 49%;
   margin-top: 1%;
 }
+.navbar-nav
+{
+  float:none;
+}
+.navbar.navbar-default.navbar-fixed-top.fixedBorder
+{
+  background-color: #000;
 }
 /*@media(max-width: 1208px ) {
 
@@ -377,8 +384,12 @@ padding-bottom: 25px;
   margin-left: 49%;
   margin-top: 7%;
 }
+.navbar.navbar-default.navbar-fixed-top.fixedBorder
+{
+  background-color: #000;
 }
-@media(min-width: 1365px){
+}
+@media(min-width: 1366px){
   .greenButton
   {
     color: #255F53;
@@ -395,13 +406,28 @@ padding-bottom: 25px;
   margin-left: 49%;
   margin-top: 1%;
 }
+.navbar-nav
+{
+  float:none;
 }
-
+.navbar.navbar-default.navbar-fixed-top.fixedBorder
+{
+  background-color: #000;
+}
+.navImage
+{
+  padding-left: 4%;
+}
+  .nav > li >a
+  {
+    padding: 21px 50px;
+  }
+}
 @media (min-width: 991px) and (max-width: 1365px){ 
 
 .nav > li > a 
 {
-  padding: 10px 40px;
+  padding: 16px 31px;
 }
 span.aim {
 font-size: 95px;
@@ -496,6 +522,52 @@ div.colHeight
   margin-left: 49%;
   margin-top: 5%;
 }
+.navbar-nav
+{
+  float:none;
+}
+.navbar.navbar-default.navbar-fixed-top.fixedBorder
+{
+  background-color: #000;
+}
+.navImage
+{
+  padding-left: 0% !important;
+  width:20%;
+  padding-top: 10%;
+}
+#bs-example-navbar-collapse-1 ul li:last-child
+{
+  padding-left: 0.9%;
+}
+#bs-example-navbar-collapse-1 ul li
+{
+  font-size: 115%;
+}
+}
+
+@media (min-width: 1350px) and (max-width: 1364px){
+.navbar.navbar-default.navbar-fixed-top.fixedBorder
+{
+  background-color: #000;
+}
+.navImage
+{
+  width:23%;
+  padding-top: 8%;
+}
+/*#bs-example-navbar-collapse-1 ul li:last-child
+{
+  padding-left: 0.9%;
+}*/
+#bs-example-navbar-collapse-1 ul li
+{
+  font-size: 130%;
+}
+.nav > li > a
+{
+  padding: 21px 48px;
+}
 }
 
 #speaker1
@@ -553,6 +625,7 @@ a#speaker6.thumbnail
 .navImage
 {
 float:left;
+padding-left: 4%;
 }
 
 .bottomborder
