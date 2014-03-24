@@ -6,5 +6,7 @@ angular.module('aimWebsiteApp')
     {
     	$location.hash(id);
     	$anchorScroll();
+  
     }
+
   });
