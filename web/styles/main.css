@@ -1084,3 +1084,44 @@ hr.greenDottedLine
   padding-bottom: 0%;
 }
 
+#home
+{
+  height:2px;
+  width:2px;  
+  margin-top:-60px ;
+  position: absolute;
+}
+#speakers{
+  height:2px;
+  width:2px;  
+  margin-top:-60px;
+  position: absolute;
+}
+#why_attend
+{
+  height:2px;
+  width:2px;  
+  margin-top:-50px ;
+  position: absolute;
+}
+#venue
+{
+  height:2px;
+  width:2px;  
+  margin-top:-50px ;
+  position: absolute;
+}
+#what_we_did
+{
+  height:2px;
+  width:2px;  
+  margin-top:-55px ;
+ position: absolute;
+}
+#schedule
+{
+  height:2px;
+  width:2px;  
+  margin-top:-50px ;
+  position: absolute;
+}
