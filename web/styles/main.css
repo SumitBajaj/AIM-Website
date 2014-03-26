@@ -17,10 +17,13 @@
     background: #202020;
 }
 .navv {
-   /* margin: 0px !important;
-    float:none !important;*/
     background: black;
 }
+.navbar.navbar-default.navbar-fixed-top.fixedBorder
+{
+  background-color: black;
+}
+
 .nav > li
 {
   cursor: pointer;
@@ -86,6 +89,10 @@ span.year
 }
 
 @media (max-width: 767px){ 
+.navv {
+    background: black;
+}
+
 span.name
 {
   font-size: 13px;
@@ -176,6 +183,14 @@ padding-bottom: 14px;
 .whiteButton
 {
   font-size: 0;
+}
+.greenButton
+{
+  font-size: 0;
+}
+.greenButtonMargin
+{
+  height: 0px;
 }
 
 }
