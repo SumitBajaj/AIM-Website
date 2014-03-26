@@ -93,40 +93,21 @@ span.year
 @media (min-width: 451px) and (max-width:767px){
  #speaker1
 {
-  background-image: url('../images/speaker1.png');
-  text-decoration: none;
-  background-repeat: no-repeat;
   background-size: 44% ;
   background-position-x: 48%;
-  padding-top: 33px !important;
-  text-align: center;
   background-color: #e87e04;
 } 
 #speaker3 
 {
-  background-image: url('../images/speaker3.png');
-  text-decoration: none;
-  padding-top: 0px;
-  padding-bottom: 0px;
-  padding-left: 0px;
-  background-repeat: no-repeat;
   background-size: 44%;
   background-position-x: 48%;
-  padding-top: 50px !important;
-  text-align: center;
   background-color: #2980b9;
 }
 
  #speaker5
 {
-  background-image: url('../images/speaker5.png');
-  text-decoration: none;
-  padding-bottom: 0px;
-  padding-left: 0px;
-  background-repeat: no-repeat;
   background-size: 44%;
   background-position-x: 48%;
-  text-align: center;
   background-color: #16a085;
 }
 .disp
@@ -136,6 +117,10 @@ span.year
 }
 
 @media (max-width: 767px){ 
+  .back
+  {
+    background-size: 100%;
+  }
 .navv {
     background: black;
 }
@@ -243,6 +228,10 @@ padding-bottom: 14px;
 }
 
 @media (min-width: 768px){ 
+   .back
+  {
+    background-size: 100%;
+  }
 span.year
 {
   font-size: 130px;
@@ -741,6 +730,32 @@ height: 172px;
 #bars {
 padding-left: 7%;
 }
+}
+#speaker1 {
+  background-image: url('../images/speaker1.png');
+  text-decoration: none;
+  background-repeat: no-repeat;
+  padding-top: 33px !important;
+  text-align: center;
+}
+a#speaker3.thumbnail
+{
+  background-image: url('../images/speaker3.png');
+  text-decoration: none;
+  background-repeat: no-repeat;
+  padding-top: 50px !important;
+  padding-left:0px;
+  padding-bottom: 0px;
+  text-align: center;
+}
+a#speaker5.thumbnail
+{
+  background-image: url('../images/speaker5.png');
+  text-decoration: none;
+  background-repeat: no-repeat;
+  padding-left:0px;
+  padding-bottom: 0px;
+  text-align: center;
 }
 
 a#speaker2.thumbnail
