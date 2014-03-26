@@ -95,6 +95,12 @@ span.name
 {
   height: 175px;
 }
+.connect
+{
+  height: 30px;
+  width: 30px;
+  font-size: 24px;
+}
 a#speaker2.thumbnail
 {
   border-bottom: 10px solid #86E2D5;
@@ -178,6 +184,12 @@ padding-bottom: 14px;
 span.year
 {
   font-size: 130px;
+}
+.connect
+{
+  height: 40px;
+  width: 40px;
+  font-size: 30px;
 }
 #pfont
 {
@@ -318,93 +330,68 @@ margin-top: 2%;
 }
 }
 @media(min-width: 767px) and (max-width: 990px){
-
-  .nav > li > a {
-padding: 10px 40px;
-}
-
-span.aim {
-font-size: 120px;
-}
-
 .speaker {
-height: 251px;
+height: 166px;
 }
-
-span.name {
-font-size: 18px;
-padding-left: 20px;
-}
-
 .speakerName {
-padding-top: 190px;
+padding-top: 113px;
 }
-
-span.year {
-font-size: 120px;
+span.aim {
+font-size: 68px;
 }
-
-span.conference {
-font-size: 45px;
+span.year{
+  font-size: 68px;
 }
 a#speaker5.thumbnail {
-padding-top: 90px;
+padding-top: 58px;
 }
-
+span.conference {
+font-size: 32px;
+}
+span.name {
+font-size: 12px;
+padding-left: 16px;
+}
+.greenButton {
+font-size:3em;
+margin-top: -6%;
+}
 .redbar {
-height: 49px;
-width: 49px;
-font-size: 30px;
+height: 37px;
+width: 37px;
+padding-left: 15px;
+font-size: 28px;
 }
-
-.brownbar1 {
-font-size: 18px;
-}
-.brownbar2 {
-font-size: 18px;
+.redButton {
+margin-top: 5%;
+font-size: 3em;
 }
 .aimPage {
-height: 288px;
+height: 270px;
+}
+.brownbar1 {
+font-size: 16px;
+}
+.brownbar2 {
+font-size: 16px;
 }
 .line {
 font-size: 22px;
-padding-top: 25px;
-padding-bottom: 25px;
 }
-.rowWhyAttend
-{
-  height:1415px;
+h2, .h2 {
+font-size: 26px;
 }
-.rowHeight
-{
-  height:300px;
+h3, .h3 {
+font-size: 24px;
 }
-.greenButton
-{
-  color:#255F53;
-  margin-top: 9%;
+p.whyTextPara {
+font-size: 14px;
 }
-.redButton
-{
-  color:#CF0010;
-  margin-left: 49%;
-  margin-top: 7%;
+.connect {
+height: 30px;
+width: 30px;
+font-size: 24px;
 }
-.blueButton
-{
-  color:#3c80af;
-  margin-left: 49%;
-  margin-top: 7%;
-}
-.navbar.navbar-default.navbar-fixed-top.fixedBorder
-{
-  background-color: #000;
-}
-  .greenButtonMargin
-  {
-    margin-top:-21%;
-    margin-left: 47%;
-  }
 }
 @media(min-width: 1366px){
   .greenButton
@@ -422,6 +409,12 @@ padding-bottom: 25px;
   color:#3c80af;
   margin-left: 49%;
   margin-top: 1%;
+}
+.connect
+{
+  height: 40px;
+  width: 40px;
+  font-size: 30px;
 }
 .navbar-nav
 {
@@ -574,6 +567,12 @@ div.colHeight
     margin-top:-21%;
     margin-left: 47%;
   }
+  .connect
+{
+  height: 40px;
+  width: 40px;
+  font-size: 30px;
+}
 }
 
 @media (min-width: 1350px) and (max-width: 1364px){
@@ -609,6 +608,12 @@ div.colHeight
     margin-top:-21%;
     margin-left: 47%;
   }
+.connect
+{
+  height: 40px;
+  width: 40px;
+  font-size: 30px;
+}
 }
 
 #speaker1
@@ -1022,7 +1027,7 @@ div.thumbnail.bars.captionbar
 p.whyTextPara
 {
   font-family: helvetica;
-  font-size: 16px;
+  font-size: 14px;
   padding: 6% 6%;
 }
 button.yellowButton
@@ -1031,6 +1036,7 @@ button.yellowButton
   background-color:#f8bf3a;
   color:white;
 }
+
 
 .venueColor
 {
@@ -1066,12 +1072,9 @@ button.yellowButton
 .connect
 {
   float: left;
-  height: 40px;
-  width: 40px;
   border-radius: 50%;
   background-color: #e87e04;
   text-align: center;
-  font-size: 30px;
   color:white;
 }
 .travelFont
