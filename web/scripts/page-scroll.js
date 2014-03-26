@@ -6,14 +6,9 @@ $(function(){
 
               var $toElement = $("a[name="+hash+"]");
               var toPosition = $toElement.position().top;
-
-              toPosition=toPosition-51;
-              console.log("Top position"+toPosition);
-
-
-
-
+              toPosition=toPosition-51;            
               $("body, html").animate({
+
                 scrollTop: toPosition
               }, 2000, "easeOutExpo");
 
