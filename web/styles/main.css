@@ -1,4 +1,16 @@
-
+/* .visible a:active{
+    border-bottom:1px solid #323233;
+    border-top:1px solid #323233;
+    line-height:30px;
+    width:182px;
+    display:block;
+    margin-left:0;
+    padding-left:10px;
+  
+    font-size:15px;
+    font-family:arial,sans-serif;
+  
+  }*/
 #bs-example-navbar-collapse-1 .navbar-nav > li > a:active {
   background-color:red !important;
   opacity:.80;
