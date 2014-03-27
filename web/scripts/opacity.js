@@ -1,12 +1,8 @@
 $(document).ready(function(){
 
-	$(".visible a").on('click', function(){
-		$(this).css('opacity','1')
-               .closest('.visible')
-               .siblings('.visible')
-               .find('a')
-               .css('opacity', '0.1')
+	$(".nav li a").on('click', function(){
+	  var clickIndex = $(this).parent().index();
+	  $(".nav li").css('opacity', '1');
+	  $(".nav li:not(:nth-child("+(clickIndex+1)+"))").css('opacity', '0.5');
 	});
-	
-
 });
