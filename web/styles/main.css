@@ -90,13 +90,18 @@ span.year
   padding-top: 50px;
 }
 
-@media (min-width: 451px) and (max-width:767px){
+@media (min-width: 600px) and (max-width:767px){
  #speaker1
 {
   background-size: 44% ;
   background-position-x: 48%;
   background-color: #e87e04;
 } 
+.navbar-nav
+{
+  float:none;
+}
+
 #speaker3 
 {
   background-size: 44%;
@@ -114,7 +119,46 @@ span.year
 {
   display: none;
 }
+.dispNav
+{
+  display: none;
 }
+}
+@media (min-width: 451px) and (max-width:599px){
+ #speaker1
+{
+  background-size: 58% ;
+  background-position-x: 48%;
+  background-color: #e87e04;
+} 
+.navbar-nav
+{
+  float:none;
+}
+
+#speaker3 
+{
+  background-size: 58%;
+  background-position-x: 48%;
+  background-color: #2980b9;
+}
+
+ #speaker5
+{
+  background-size: 58%;
+  background-position-x: 48%;
+  background-color: #16a085;
+}
+.disp
+{
+  display: none;
+}
+.dispNav
+{
+  display: none;
+}
+}
+
 
 @media (max-width: 767px){ 
   .back
@@ -124,6 +168,11 @@ span.year
 .navv {
     background: black;
 }
+.navbar-nav
+{
+  float:none;
+}
+
 
 span.name
 {
@@ -236,6 +285,11 @@ span.year
 {
   font-size: 130px;
 }
+.navbar-nav
+{
+  float:none;
+}
+
 .connect
 {
   height: 40px;
@@ -390,6 +444,14 @@ margin-top: 2%;
 {
   background-size: 100%;
 }
+.dispNav
+{
+  display: none;
+}
+.navbar{
+  float:right;
+}
+
 .speaker {
 height: 166px;
 }
@@ -458,6 +520,10 @@ font-size: 24px;
 {
   background-size: 100%;
 }
+.navbar{
+  float:right;
+}
+
   .greenButton
   {
     color: #255F53;
@@ -482,7 +548,7 @@ font-size: 24px;
 }
 .navbar-nav
 {
-  float:right;
+  float:none;
 }
 .navbar.navbar-default.navbar-fixed-top.fixedBorder
 {
@@ -514,6 +580,10 @@ font-size: 24px;
 {
   padding: 16px 31px;
 }
+.navbar{
+  float:right;
+}
+
 span.aim {
 font-size: 95px;
 }
@@ -685,6 +755,10 @@ div.colHeight
   width: 40px;
   font-size: 30px;
 }
+.navbar{
+  float:right;
+}
+
 }
 @media (min-width: 1650px){
   .redButton
@@ -695,6 +769,10 @@ div.colHeight
   {
     background-size: 100%;
   }
+  .navbar{
+  float:right;
+}
+
 }
 @media (max-width: 450px){
 #speaker1 {
@@ -809,7 +887,6 @@ width: 90%;
 margin-left: 5%;
 float: right;
 }
-
 body
 {
   background: black ;
