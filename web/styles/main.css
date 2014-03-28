@@ -289,6 +289,10 @@ padding-bottom: 14px;
 }
 
 @media (min-width: 768px){ 
+  .nav-active
+  {
+    opacity: 0.1px;
+  }
    .back
   {
     background-size: 100%;
@@ -301,6 +305,7 @@ span.year
 {
   float:none;
 }
+
 
 .connect
 {
