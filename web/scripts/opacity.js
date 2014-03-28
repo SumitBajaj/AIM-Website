@@ -20,9 +20,11 @@ $(document).ready(function(){
 //     });
 // });
 
- 	    $(".visibleArrow a i").on('click', function(){
+ 	    $(".visibleArrow a").on('click', function(){
  	    	//event.preventDefault();
  	    	console.log("link clicked");
+ 	    	console.log($(this));
+ 	    	var teamId = $(this).attr("id");
  	    	/*var msg= $(".visibleArrow a").attr('matchid');
  	    	console.log(msg);*/
 
