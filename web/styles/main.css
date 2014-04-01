@@ -16,6 +16,7 @@
   opacity:.80;
 
 }
+
 .fixedBorder
 {
   border-width: 0px 0px 0px !important;
@@ -533,6 +534,14 @@ font-size: 24px;
 }
 }
 @media(min-width: 1366px){
+.redIcon
+{
+  color:#e84b38;
+  width:20%;
+  padding-top:10%;
+  float:left;
+  font-size: 22px !important;
+}
   .back
 {
   background-size: 100%;
@@ -588,7 +597,31 @@ font-size: 24px;
   }
 
 }
+@media ( min-width: 1024px ){
+  .redIcon
+{
+  color:#e84b38;
+  width:20%;
+  padding-top:10%;
+  float:left;
+  
+}
+}
 @media (min-width: 991px) and (max-width: 1365px){ 
+  .redIcon
+{
+  color:#e84b38;
+  width:20%;
+  padding-top:10%;
+  float:left;
+}
+.redIcon
+{
+  color:#e84b38;
+  width:20%;
+  padding-top:15%;
+  float:left;
+}
 .back
 {
   background-size: 100%;
@@ -727,9 +760,18 @@ div.colHeight
   width: 40px;
   font-size: 30px;
 }
+
 }
 
 @media (min-width: 1350px) and (max-width: 1364px){
+.redIcon
+{
+  color:#e84b38;
+  width:20%;
+  padding-top:10%;
+  float:left;
+  font-size: 18px;
+}
 .back
 {
   background-size: 100%;
@@ -810,6 +852,10 @@ background-color: #16A085;
 }
 .disp{
   display:none;
+}
+.dispNav
+{
+  display: none;
 }
 .brownbar2 {
 font-size: 11px;
