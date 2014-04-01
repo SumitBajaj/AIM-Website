@@ -20,6 +20,17 @@
     <link rel="stylesheet" href="styles/main.css"> 
     <link rel="stylesheet" href="styles/fbc.css">
     <!-- endbuild -->
+    <script>
+    $(".nav li a").on('click', function(){
+      var clickIndex = $(this).parent().index();
+      alert("hi");
+      var hash = $this.hash.substr(1);
+      console.log(hash);
+      $(".nav li").css('opacity', '1');
+      $(".nav li:not(:nth-child("+(hash)+"))").css('opacity', '0.5');
+      });
+        //console.log(hash);
+    </script>
   </head>
   <body>
       <div class="header">
