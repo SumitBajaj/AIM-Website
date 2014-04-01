@@ -19,10 +19,10 @@ class RegistrationsController < ApplicationController
   # POST /registrations.json
   def create
     # p params
-    # p "$$$$$$"
-    # p params[:registration] #:first_name => "assdas",:last_name => "dasdas"
+     p "$$$$$$"
+     p params[:registration] #:first_name => "assdas",:last_name => "dasdas"
     register= {:first_name=>params[:first_name],:last_name=>params[:last_name],:email=>params[:email],:company_name=>params[:company_name]}
-    # p register
+     p register
     @registration = Registration.new(register)
 
   if @registration.save
