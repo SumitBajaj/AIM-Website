@@ -20,50 +20,49 @@ $(document).ready(function(){
             }
 
       });
+	$('#first_name').blur(function () {
+            if ($('#first_name').val() == '' || $('#first_name').val() == 'First Name') {
+                alert("Please enter your first name \n");
+                return false;
+            }
 
-	 /* $('#register').onSubmit(function(){*/
-	 	$("#submit").click(function(){
-		var first_name=$("#first_name").val();
-		 // alert(first_name);
-		var last_name=$("#last_name").val();
-		var email=$("#email").val();
-		var company_name=$("#company_name").val();
-	     var dataString = '&first_name='+ first_name+'&last_name='+ last_name + '&email=' + email + '&company_name=' + company_name;
-		// alert(dataString);
-		$.ajax({
-			  type: "POST",
-			  url: "/registrations#create",
-			  data: dataString,
-			  // cache: false,
-			  // alert(data);
-			  success: function(data){
-			  	 alert("hi");
- 			     // $('.signup').html("<div id='message'></div>");
- 			     $('.signup').html("<h2>Registration Form Submitted!</h2>");
- 			     // .append("<p>We will be in touch soon.</p>")
- 			   //  // .hide()
- 			   //  // .fadeIn(1500, function() {
- 			   //  //   $('#message').append("<img id='checkmark' src='images/check.png' />");
- 			   //  // });
-   				// }
-			  	
-			   },
-			  //  error: function(xhr){
-			   	 
-				 // var errors = $.parseJSON(xhr.responseText).errors;
-				 // alert(xhr.);
-				 // console.log(xhr);
-			  //  	 $('.signup').html("<h2>Errors!</h2>");
-			  //  } 
-			  error: function (XMLHttpRequest, textStatus, errorThrown) {
-        		// var err = eval("(" + XMLHttpRequest.responseText + ")");
-        		var errors = $.parseJSON(XMLHttpRequest.responseText);
-  				alert(errors);
-           		 $(".signup").html(errors);
-    }
-		});
-   			// return false;
-	});
+        });
+		$('#last_name').blur(function () {
+            if ($('#last_name').val() == '' || $('#last_name').val() == 'Last Name') {
+                alert("Please enter your last name \n");
+                return false;
+            }
+
+        });
+        	$('#email').blur(function () {
+            if ($('#email').val() == '' || (atpos<1 || dotpos<atpos+2 || dotpos+2>=x.length) || x=='Your E-mail Address') {
+                alert("Please enter your email address \n");
+                return false;
+            }
+
+        });
+        		$('#company_name').blur(function () {
+            if ($('#company_name').val() == '' || $('#company_name').val() == 'Company Name') {
+                alert("Please enter your company name \n");
+                return false;
+            }
+
+        });
+
+		 $('#register').on('submit', function(e) {
+
+        $.post('/registrations#create', $(this).serialize(), function (data) {
+        	$(".signup").html("<h2>Regitration Form Submitted</h2>");
+
+        }).error(function (XMLHttpRequest, textStatus, errorThrown) {
+        	var errors = $.parseJSON(XMLHttpRequest.responseText);
+        	alert(errors);
+        	$(".signup").html(errors);
+        });
+        e.preventDefault();
+    });
+
+	
      if(location.hash !="")
      {
 		 var $toElement = $("a[name="+location.hash.replace('#','')+"]");
@@ -81,3 +80,34 @@ $(document).ready(function(){
         }
 
 });
+
+function validateForm()
+{
+	var valid = true;
+	var x = document.getElementById('email').value;
+    var atpos=x.indexOf("@");
+    var dotpos=x.lastIndexOf(".");
+    errorMessage = "";
+
+    if ($('#first_name').val() == '') {
+       errorMessage  = "please enter your first name \n";
+       valid = false;
+    }
+
+    if ($('#last_name').val() == '') {
+       errorMessage += "please enter your last name\n";
+       valid = false;
+    } 
+  
+    if ($('#email').val() == '' || (atpos<1 || dotpos<atpos+2 || dotpos+2>=x.length) || x=='Your E-mail Address') {      
+       errorMessage += "please enter valid email address\n";
+       valid = false;
+    } 
+    if ($('#company_name').val() == '' || $('#company_name').val() == 'Company Name') {
+        errorMessage+= "Please enter your company name \n";
+        valid = false;
+}
+    if( !valid && errorMessage.length > 0){
+       alert(errorMessage);
+    }   
+}

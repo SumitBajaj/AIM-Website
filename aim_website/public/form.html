@@ -20,31 +20,7 @@
     <link rel="stylesheet" href="styles/main.css"> 
     <link rel="stylesheet" href="styles/fbc.css">
     <!-- endbuild -->
-  <script>
-  function validateForm()
-    {
-    var x=document.forms["register"]["first_name"].value;
-    if (x==null || x=="")
-      {
-      alert("First name must be filled out");
-      return false;
-      }
-      var x=document.forms["register"]["last_name"].value;
-       if (x==null || x=="")
-      {
-      alert("Last name must be filled out");
-      return false;
-      }
-      var x=document.forms["register"]["email"].value;
-      var atpos=x.indexOf("@");
-      var dotpos=x.lastIndexOf(".");
-      if (atpos<1 || dotpos<atpos+2 || dotpos+2>=x.length)
-        {
-        alert("Not a valid e-mail address");
-        return false;
-        }
-    }
-  </script>
+
   </head>
   <body>
       <div class="header">
@@ -74,19 +50,19 @@
   </div>
     <div class="signup" style="width:1366px; margin-left:20%; margin-right:20%;margin-top:10%;">
 
-  <!--       <form name="register"  id="register" method="post"> -->
+        <form name="register"  id="register" action="/registrations#create" onsubmit="return validateForm();" method="post">
         <table width="200px" cellpadding="5" style="color:white">
         <tr><td class="ss">Register</td></tr>
-        <tr><td><input class="t1box" type="text" name="first_name" value="First Name" id="first_name" /></td>
-            <td><input class="t1box" type="text" name="last_name" value="Last Name" id="last_name" /></td>
+        <tr><td><input class="t1box" type="text" name="first_name" onfocus="this.value = '';" value="First Name"  id="first_name" /></td>
+            <td><input class="t1box" type="text" name="last_name" onfocus="this.value = '';" value="Last Name"  id="last_name" /></td>
         </tr>
-        <tr><td colspan="2"><input class="t1box" type="text" name="email" value="Your E-mail Address" id="email"  maxlength="48" size="48"  /></td>
+        <tr><td colspan="2"><input class="t1box" type="text" name="email" onfocus="this.value = '';"  value="Your E-mail Address" id="email"  maxlength="48" size="48"  /></td>
         </tr>
-        <tr><td colspan="2"><input class="t1box" type="text" name="company_name" value="Your Company Name" id="company_name"  maxlength="48" size="48"  /></td>
+        <tr><td colspan="2"><input class="t1box" type="text" onfocus="this.value = '';" name="company_name" value="Your Company Name"  id="company_name"  maxlength="48" size="48"  /></td>
         </tr>
         <tr><td></td><td><input type="submit" id="submit"></td></tr>
         </table>
-     <!--  </form> -->
+        </form> 
       
 </div>
     <script src="bower_components/jquery/jquery.js"></script>
