@@ -910,9 +910,6 @@ a#speaker4.thumbnail
 {
   background-image: url('../images/speaker4.png');
   background-repeat: no-repeat;
-
-  text-align: center;
-
   background-size: 100%;
   border-bottom: 10px solid #E28100;
 }
@@ -1185,6 +1182,7 @@ div#blue-line
   border-bottom-width: 2px solid blue;
   top: 5px;
   height:2%;
+  margin-top:140px;
 
 }
 
@@ -1195,13 +1193,6 @@ div.columns
   padding-right: 1%;*/
 }
 
-
-div.captionHeight
-{
-  height: 120px;
-
-
-}
 div.captionHeightTwo
 {
   height: 175px;
@@ -1401,3 +1392,65 @@ hr.greenDottedLine
   margin-top:-50px ;
   position: absolute;
 }
+#onHoverGreen:hover
+{
+  height:100%;
+  background-color:rgba(134, 226, 213,0.5);
+}
+#onHoverOrange:hover
+{
+  height:100%;
+  background-color:rgba(226, 129, 0, 0.5);
+}
+#onHoverBlue:hover
+{
+  height:100%;
+  background-color:rgba(50, 126, 184, 0.5);
+}
+div.name1
+{
+  margin-top:-50px;
+  padding-left: 20px;
+  font-size: 18px;
+}
+.captionPadding
+{
+  padding-top: 40px !important;
+}
+div#fadeOnHover
+{
+  height:50px;
+}
+#fadeOnHover:hover
+{
+  background-color: red;
+}
+
+
+
+.image
+{
+ display: block; 
+}
+#overlay
+{
+  position: relative; float: left;
+}
+#overlay .image:hover
+{
+  opacity:0.5;
+}
+#overlay span {
+    background: red;
+    bottom: 0;
+    display: block;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    right:0;
+    top: 0;
+    z-index: 1;
+    margin-top: 100px;
+}
+
+#overlay:hover span { opacity: 0.5; }
