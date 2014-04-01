@@ -37,7 +37,7 @@ $(document).ready(function(){
 			  // cache: false,
 			  // alert(data);
 			  success: function(data){
-			  	// alert("hi");
+			  	 alert("hi");
  			     // $('.signup').html("<div id='message'></div>");
  			     $('.signup').html("<h2>Registration Form Submitted!</h2>");
  			     // .append("<p>We will be in touch soon.</p>")
@@ -56,10 +56,10 @@ $(document).ready(function(){
 			  //  	 $('.signup').html("<h2>Errors!</h2>");
 			  //  } 
 			  error: function (XMLHttpRequest, textStatus, errorThrown) {
-        		alert(errorThrown);
-        		// if (XMLHttpRequest.responseText.startsWith("<html>"))
-        		var arr=XMLHttpRequest.responseText;
-           		 $(".signup").html(arr[0]);
+        		// var err = eval("(" + XMLHttpRequest.responseText + ")");
+        		var errors = $.parseJSON(XMLHttpRequest.responseText);
+  				alert(errors);
+           		 $(".signup").html(errors);
     }
 		});
    			// return false;
