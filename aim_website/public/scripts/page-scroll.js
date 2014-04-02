@@ -79,8 +79,11 @@ $(document).ready(function(){
           $("a[href="+hash+"]");
         }
 
-
-        
+   $('.nav a').on('click', function(){ 
+        if($('.navbar-toggle').css('display') !='none'){
+            $(".navbar-toggle").trigger( "click" );
+        }
+    });        
 
      $(".visibleArrow a i").on('click', function(){
              var teamId = $(this).attr("id");
