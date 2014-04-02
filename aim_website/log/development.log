@@ -14348,3 +14348,30 @@ Processing by RegistrationsController#create as */*
   [1m[35mRegistration Exists (1.0ms)[0m  SELECT 1 AS one FROM "registrations" WHERE "registrations"."email" = 'Your E-mail Address' LIMIT 1
   [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
 Completed 422 Unprocessable Entity in 8ms (Views: 0.0ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/registrations" for 127.0.0.1 at 2014-04-01 18:03:18 +0530
+Processing by RegistrationsController#create as */*
+  Parameters: {"first_name"=>"First Name", "last_name"=>"Last Name", "email"=>"Your E-mail Address", "company_name"=>"Your Company Name"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mRegistration Exists (1.0ms)[0m  [1mSELECT 1 AS one FROM "registrations" WHERE "registrations"."email" = 'Your E-mail Address' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Completed 422 Unprocessable Entity in 14ms (Views: 1.0ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/registrations" for 127.0.0.1 at 2014-04-01 18:03:44 +0530
+Processing by RegistrationsController#create as */*
+  Parameters: {"first_name"=>"First Name", "last_name"=>"Last Name", "email"=>"Your E-mail Address", "company_name"=>"Your Company Name"}
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mRegistration Exists (1.0ms)[0m  SELECT 1 AS one FROM "registrations" WHERE "registrations"."email" = 'Your E-mail Address' LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+Completed 422 Unprocessable Entity in 14ms (Views: 1.0ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/registrations" for 127.0.0.1 at 2014-04-01 18:04:27 +0530
+Processing by RegistrationsController#create as */*
+  Parameters: {"first_name"=>"", "last_name"=>"", "email"=>"", "company_name"=>""}
+  [1m[35m (1.0ms)[0m  begin transaction
+  [1m[36mRegistration Exists (0.0ms)[0m  [1mSELECT 1 AS one FROM "registrations" WHERE "registrations"."email" = '' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Completed 422 Unprocessable Entity in 12ms (Views: 0.0ms | ActiveRecord: 1.0ms)
