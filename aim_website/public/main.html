@@ -35,8 +35,8 @@
           </button>
         </div>
       <div class="collapse-navbar-collapse collapseOne" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav navv">
-          <li class="visible"><a href="#home" id="visible1">Home</a></li>
+        <ul class="nav navbar-nav navv" id="top-menu">
+          <li class="visible"><span class="redIcon dispNav"><i class="fa fa-home fa-lg"></i></span><a href="#home" id="visible1">Home</a></li>
           <li class="visible"><img src="images/speaker.png" alt="..." class="navImage dispNav"><a href="#speakers" id="visible2">Speakers</a></li>
           <li class="visible"><img src="images/information.png" alt="..." class="navImage dispNav"><a href="#why_attend" id="visible3">Why Attend</a></li>
           <li class="visible"><img src="images/question.png" alt="..." class="navImage dispNav"><a href="#what_we_did" id="visible4">What We Did</a></li>
@@ -50,8 +50,7 @@
   </div>
 <!-- Navbar ends here -->
   <!--Page1 starts from here -->
-
-  <a name="home"><a>
+<a name="home"><a>
    <div class="row newRowOne">
 
       <div class="col-xs-12 col-sm-4 col-md-4 colPadding">
@@ -61,8 +60,10 @@
       </div>
       <div class="col-xs-12 col-sm-4 col-md-4 colPadding disp">
         <a href="#" class="thumbnail speaker speakerName" id="speaker2">
+          <div id="onHoverGreen">
           <span class="name white "><span id="underline">SA</span>NWAR OBEROI
           </span>
+        </div>
         </a>
       </div>
       <div class="col-xs-12 col-sm-4 col-md-4 colPadding">
@@ -74,25 +75,28 @@
   <div class="row newRowTwo">
     <div class="col-xs-12 col-sm-4 col-md-4 colPadding disp">
       <a href="#" class="thumbnail speaker speakerName" id="speaker4">
+        <div id="onHoverOrange">
         <span class="name white"><span id="underline">KA</span>YE JACOB
         </span>
+      </div>
       </a>
     </div>
     <div class="col-xs-12 col-sm-4 col-md-4 colPadding">
       <a href="#" class="thumbnail speaker back" id="speaker5">
         <span class="conference white">Conference</span></a>
-       <div class="greenButtonMargin visibleArrow"><a href="#what_we_did" "id=visible4"><i class="fa fa-chevron-circle-down fa-4x greenButton"></i></a></div></div>
+       <div class="greenButtonMargin visibleArrow"><a href="#what_we_did"><i class="fa fa-chevron-circle-down fa-4x greenButton" id="visible4"></i></a></div></div>
       <div class="col-xs-12 col-sm-4 col-md-4 colPadding disp">
         <a href="#" class="thumbnail speaker speakerName" id="speaker6">
-          <span class="name white"><span id="underline">RA</span>NJINI MANIAN
-          </span>
+          <div id="onHoverBlue">
+            <span class="name white"><span id="underline">RA</span>NJINI MANIAN
+            </span>
+          </div>
         </a>
       </div>
     </div>
     <!-- Page1 ends here -->
   
   <!-- Page 2 starts from here -->  
-  
   <a name="what_we_did"></a>
     <div class="row rowSpeaker aimPage" id="secondPage">  
 
@@ -136,7 +140,7 @@
       <span>22, December 2014, Gurgaon</span>
     </div>
   </div>
-  <div visibleArrow><a href="#speakers" id="visible5"><i class="fa fa-chevron-circle-down fa-4x redButton"></i></a></div>
+  <div class="visibleArrow"><a href="#speakers"><i class="fa fa-chevron-circle-down fa-4x redButton" id="visible2"></i></a></div>
   </div>
   </div>
 
@@ -148,7 +152,6 @@
     </div>  
   </div>
 <!-- Page2 ends here -->
-  
   <!-- Page 3 starts from here -->
   <a name="speakers"></a>
     <div class="row marketing rowSpeakers">
@@ -223,7 +226,7 @@
           <div class="thumbnail bottomborder bars">
             <img src="images/speaker24.jpg" alt="..." class="bigImage">
           </div>
-        </div><div visibleArrow><a href="#why_attend" id="visible2"><i class="fa fa-chevron-circle-down fa-4x blueButton"></i></a></div>
+        </div><div class="visibleArrow"><a href="#why_attend"><i class="fa fa-chevron-circle-down fa-4x blueButton" id="visible3"></i></a></div>
       </div>
     </div>
   <!-- Page3 ends here -->
@@ -338,7 +341,7 @@
             </div>
           </div>
         </div>
-      </div><div visibleArrow><a href="#venue" id="visible3" data-matchId="visible3"><i class="fa fa-chevron-circle-down fa-4x whiteButton"></i></a></div>
+      </div><div class="visibleArrow"><a href="#venue"  data-matchId="visible3"><i class="fa fa-chevron-circle-down fa-4x whiteButton" id="visible5"></i></a></div>
     </div>  
   <!-- Page4 ends here -->
   
@@ -397,7 +400,7 @@
         <div class="col-sm-2 col-md-2 venueColPadding">
           <span class="setFont boldFont">Train:</span></br>
           <span class="setFont">Route from station to venue comes here</span>
-        </div>
+        </div><div class="visibleArrow"><a href="#schedule" data-matchid="visible5"><i class="fa fa-chevron-circle-down fa-4x whiteButton"  id="visible6"></i></a></div>
       </div>
       <div class="row rowSpeaker">
         <div class="col-sm-12 col-md-12 col-lg-12 colPadding line"> 
@@ -413,11 +416,58 @@
 
   <!-- Page 6 starts from here -->
   <a name="schedule"></a>
-  <div class="row-marketing page5">
+  <div class="row-marketing rowSpeakers page5 rowPaddingBottom">
     <div class="speakers">
       <span class="white">SCHEDULE</span>
     </div>
     <hr class="greenDottedLine">
+      <div class="row first-row rowPadding rowHeight">
+        <div class="col-sm-4 col-md-4 venueColPadding imgheight">
+          <div class="row first-row rowPadding">
+            <div class="col-sm-12 col-md-12 venueColPadding">
+              <span class="setFont">GURGAON</br>
+              Venue details Coming Soon</span>
+            </div>
+          </div>
+          <div class="row first-row rowPadding">
+            <div class="row first-row rowPadding">
+             <div class="col-sm-12 col-md-12 venueColPadding colHeight">
+                <span class="setFont boldFont">WE ARE SOCIAL</span>
+              </div>
+            </div>
+            <div class="row first-row rowPadding">
+              <div class="col-sm-2 col-md-2 venueColPadding">
+                <span class="connect">f</span>
+              </div>
+              <div class="col-sm-2 col-md-2 venueColPadding">
+                <span class="connect">t</span>
+              </div>
+              <div class="col-sm-2 col-md-2 venueColPadding">
+               <span class="connect">in</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row first-row rowPadding smallRow">
+        <div class="col-sm-4 col-md-4 venueColPadding">
+        </div>
+        <div class="col-sm-2 col-md-2 venueColPadding">
+          <span class="setFont boldFont">Airport:</span></br>
+          <span class="setFont">Route from Airport to venue comes here</span>
+        </div>
+        <div class="col-sm-2 col-md-2 venueColPadding">
+          <span class="setFont boldFont">Train:</span></br>
+          <span class="setFont">Route from station to venue comes here</span>
+        </div>
+      </div>
+      <div class="row rowSpeaker">
+        <div class="col-sm-12 col-md-12 col-lg-12 colPadding line"> 
+          You'll not only meet amazing people, you'll also hear
+          <br/>
+          great talks.   
+        </div>
+      </div>
   </div>  
   <!-- Page6 ends here -->
 
