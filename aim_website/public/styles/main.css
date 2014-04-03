@@ -11,7 +11,8 @@
     font-family:arial,sans-serif;
   
   }*/
-#bs-example-navbar-collapse-1 .navbar-nav > li > a:active {
+
+#navProp.navbar-nav > li > a:active {
   background-color:red !important;
   opacity:.80;
 
@@ -20,11 +21,11 @@
 {
   border-width: 0px 0px 0px !important;
 }
-/*#bs-example-navbar-collapse-1 ul li
+/*#navProp ul li
 {
   font-size: 130%;
 }*/
-#bs-example-navbar-collapse-1 ul li:nth-child(odd)
+#navProp ul li:nth-child(odd)
 { 
     background: #202020;
 }
@@ -47,11 +48,11 @@
   padding:17px 50px;
 }*/
 
-#bs-example-navbar-collapse-1 ul li:nth-child(even)
+#navProp ul li:nth-child(even)
  {
      background: #000000;
 }
-#bs-example-navbar-collapse-1 ul li:last-child
+#navProp ul li:last-child
 {
   background: #C5010F;
 }
@@ -72,7 +73,7 @@
 }
 
 
-#bs-example-navbar-collapse-1 .navbar-nav > li > a 
+#navProp .navbar-nav > li > a 
 {
 text-align: center;
 color:#FEFEFE;
@@ -320,7 +321,6 @@ span.year
 {
   float:none;
 }
-
 
 .connect
 {
@@ -749,11 +749,11 @@ div.colHeight
   width:20%;
   padding-top: 10%;
 }
-#bs-example-navbar-collapse-1 ul li:last-child
+#navProp ul li:last-child
 {
   padding-left: 0.9%;
 }
-/*#bs-example-navbar-collapse-1 ul li
+/*#navProp ul li
 {
   font-size: 115%;
 }*/
@@ -792,11 +792,11 @@ div.colHeight
   width:23%;
   padding-top: 4%;
 }
-#bs-example-navbar-collapse-1 ul li:last-child
+#navProp ul li:last-child
 {
   padding-left: 0.9%;
 }
-/*#bs-example-navbar-collapse-1 ul li
+#navProp ul li
 {
   font-size: 130%;
 }*/

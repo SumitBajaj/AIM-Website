@@ -11,6 +11,7 @@
     font-family:arial,sans-serif;
   
   }*/
+
 #bs-example-navbar-collapse-1 .navbar-nav > li > a:active {
   background-color:red !important;
   opacity:.80;
@@ -22,9 +23,9 @@
 }
 /*#bs-example-navbar-collapse-1 ul li
 {
-	font-size: 130%;
+  font-size: 130%;
 }*/
-#bs-example-navbar-collapse-1 ul li:nth-child(odd)
+#navColor ul li:nth-child(odd)
 { 
     background: #202020;
 }
@@ -55,7 +56,21 @@
 {
   background: #C5010F;
 }
-
+#onHoverGreen:hover
+{
+  height:100%;
+  background-color:rgba(134, 226, 213,0.5);
+}
+#onHoverOrange:hover
+{
+  height:100%;
+  background-color:rgba(226, 129, 0, 0.5);
+}
+#onHoverBlue:hover
+{
+  height:100%;
+  background-color:rgba(50, 126, 184, 0.5);
+}
 
 
 #bs-example-navbar-collapse-1 .navbar-nav > li > a 
@@ -101,6 +116,7 @@ span.year
   font-size: 50px;
   padding-top: 50px;
 }
+
 
 @media (min-width: 600px) and (max-width:767px){
  #speaker1
@@ -306,7 +322,6 @@ span.year
   float:none;
 }
 
-
 .connect
 {
   height: 40px;
@@ -456,6 +471,16 @@ margin-top: 2%;
   margin-top: -21%;
 }
 }
+@media ( min-width: 1024px ){
+  .redIcon
+{
+  color:#e84b38;
+  width:20%;
+  padding-top:10%;
+  float:left;
+  
+}
+}
 @media(min-width: 767px) and (max-width: 990px){
   .back
 {
@@ -540,6 +565,15 @@ font-size: 24px;
 .navbar{
   float:right;
 }
+.redIcon
+{
+  color:#e84b38;
+  width:20%;
+  padding-top:10%;
+  float:left;
+  font-size: 22px !important;
+  padding-left: 7%;
+}
 
   .greenButton
   {
@@ -589,6 +623,13 @@ font-size: 24px;
 
 }
 @media (min-width: 991px) and (max-width: 1365px){ 
+.redIcon
+{
+  color:#e84b38;
+  width:20%;
+  padding-top:15%;
+  float:left;
+}
 .back
 {
   background-size: 100%;
@@ -730,6 +771,14 @@ div.colHeight
 }
 
 @media (min-width: 1350px) and (max-width: 1364px){
+.redIcon
+{
+  color:#e84b38;
+  width:20%;
+  padding-top:10%;
+  float:left;
+  font-size: 18px;
+}
 .back
 {
   background-size: 100%;
@@ -811,6 +860,10 @@ background-color: #16A085;
 .disp{
   display:none;
 }
+.dispNav
+{
+  display: none;
+}
 .brownbar2 {
 font-size: 11px;
 margin-top: 1%;
@@ -864,9 +917,6 @@ a#speaker4.thumbnail
 {
   background-image: url('../images/speaker4.png');
   background-repeat: no-repeat;
-
-  text-align: center;
-
   background-size: 100%;
   border-bottom: 10px solid #E28100;
 }
@@ -1363,44 +1413,45 @@ hr.greenDottedLine
 
 .signup
 {
-	display:inline-block;
-	margin-left:800px;	
-	width:40%;
-	height:50%;
-	margin-top:30%;
+  display:inline-block;
+  margin-left:800px;  
+  width:40%;
+  height:50%;
+  margin-top:30%;
 }
 .message
 {
-	width:40%;
-	height:20%;
-	margin-left:20%;
-	margin-top:10%;
+  width:40%;
+  height:20%;
+  margin-left:20%;
+  margin-top:10%;
 }
 h1 
 {
-	font-size:200%;
+  font-size:200%;
 }
 legend 
 {
-	font-size:30px;
-	font-weight:bold;
-	color:#E84B38;
+  font-size:30px;
+  font-weight:bold;
+  color:#E84B38;
+  width:30%;
 }
 fieldset > div {
-	margin:10px 0;
+  margin:10px 0;
 }
 fieldset > legend + div {
-	margin-top:0;
+  margin-top:0;
 }
 fieldset > div:last-child {
-	margin-bottom:0;
+  margin-bottom:0;
 }
 label {
-	display:inline-block;
-	width:100px;
+  display:inline-block;
+  width:100px;
 }
 input {
-	width:200px;
+  width:200px;
 }
 input[type="number"] {
     width:30px;
