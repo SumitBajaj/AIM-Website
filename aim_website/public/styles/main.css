@@ -201,8 +201,8 @@ span.year
   }
 .name1
 {
-	padding-left: 20px;
-	font-size: 12px;
+  padding-left: 20px;
+  font-size: 12px;
 }
 .navv {
     background: black;
@@ -240,17 +240,8 @@ a#speaker2.thumbnail
 {
   border-bottom:4px solid white;
 }
-a#speaker1.thumbnail
-{
-  background-image: url("../images/speaker2.png");
-}
-a#speaker3.thumbnail
-{
-  background-image: url("../images/speaker4.png");
-}
 a#speaker5.thumbnail
 {
-  background-image: url("../images/speaker6.png");
   padding-top: 60px;
 }
 .redbar 
@@ -366,7 +357,6 @@ span.year
 {
   background-image: url("../images/speaker1.png");
   padding-top: 43px !important;
-  background-size:100%;
 }
 span.aim
 {
@@ -375,14 +365,12 @@ span.aim
 a#speaker3.thumbnail
 {
 background-image: url("../images/speaker3.png");
-background-size:100%;
 }
 
 a#speaker5.thumbnail
 {
 background-image: url("../images/speaker5.png");
 padding-top:100px;
-background-size:100%;
 }
 span.conference
 {
@@ -517,7 +505,7 @@ margin-top: 2%;
   
 }
 }
-@media(min-width: 768px) and (max-width: 990px){
+@media(min-width: 767px) and (max-width: 990px){
   .back
 {
   background-size: 100%;
@@ -544,17 +532,14 @@ span.year{
 }
 
 a#speaker1.thumbnail {
-background-size:100%;
 background-image: url("../images/speaker1.png");
 }
 
 a#speaker3.thumbnail {
-background-size:100%;
 background-image: url("../images/speaker3.png");
 }
 
 a#speaker5.thumbnail {
-background-size:100%;
 background-image: url("../images/speaker5.png");
 padding-top: 58px;
 }
@@ -672,20 +657,17 @@ font-size: 24px;
 
 a#speaker1.thumbnail
 {
-	background-image: url("../images/speaker1.png");
-	background-size:100%;
+  background-image: url("../images/speaker1.png");
 }
 
 a#speaker3.thumbnail
 {
-	background-size:100%;
-	background-image: url("../images/speaker3.png");
+  background-image: url("../images/speaker3.png");
 }
 
 a#speaker5.thumbnail
 {
-	background-size:100%;
-	background-image: url("../images/speaker5.png");
+  background-image: url("../images/speaker5.png");
 }
 
 }
@@ -722,13 +704,11 @@ padding-top: 162px;
 #speaker1 {
 background-image: url("../images/speaker1.png");
 padding-top: 43px !important;
-background-size:100%;
 }
 
 a#speaker3.thumbnail
 {
 background-image: url("../images/speaker3.png");
-background-size:100%;
 }
 
 span.name {
@@ -747,7 +727,6 @@ font-size: 43px;
 a#speaker5.thumbnail {
 background-image: url("../images/speaker5.png");
 padding-top: 74px;
-background-size:100%;
 }
 .brownbar1 {
 font-size: 23px;
@@ -938,8 +917,8 @@ background-color: #16A085;
 }
 .name1
 {
-	padding-left: 20px;
-	font-size: 12px;
+  padding-left: 20px;
+  font-size: 12px;
 }
 .disp{
   display:none;
@@ -968,6 +947,7 @@ padding-left: 7%;
   background-repeat: no-repeat;
   padding-top: 33px !important;
   text-align: center;
+  background-size:100%;
 }
 a#speaker3.thumbnail
 {
@@ -977,6 +957,7 @@ a#speaker3.thumbnail
   padding-left:0px;
   padding-bottom: 0px;
   text-align: center;
+  background-size:100%;
 }
 a#speaker5.thumbnail
 {
@@ -985,6 +966,7 @@ a#speaker5.thumbnail
   padding-left:0px;
   padding-bottom: 0px;
   text-align: center;
+  background-size:100%;
 }
 
 a#speaker2.thumbnail
@@ -1299,7 +1281,7 @@ div.columns
 
 .captionHeight
 {
-	height:320px;
+  height:320px;
 }
 
 .image
@@ -1325,7 +1307,7 @@ div.columns
     position: absolute;
     right: 0;
     top: 0;
-	margin-top:130px;
+  margin-top:130px;
 }
 
 #overlay:hover #fadeOnHover { opacity: 0.5; }
