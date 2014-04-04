@@ -19,6 +19,7 @@
     <!-- build:css({.tmp,app}) styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">    
     <!-- endbuild -->
+    <link rel="stylesheet" href="styles/flip.css">    
   </head>
   <body ng-app="aimWebsiteApp">
 
@@ -53,12 +54,21 @@
   <!--Page1 starts from here -->
 <a name="home"><a>
    <div class="row newRowOne">
-
-      <div class="col-xs-12 col-sm-4 col-md-4 colPadding">
-        <a href="#" class="thumbnail speaker" id="speaker1">
-         <span class="aim white">AIM</span>
-        </a>
+      <div id="f1_container" class="col-xs-12 col-sm-4 col-md-4 colPadding">
+        <div id="f1_card">
+          <div class="front face">
+            <a href="#" class="thumbnail speaker back" id="speaker1">
+              <span class="aim white">AIM</span>
+            </a>
+          </div>      
+          <div class="back face center" style="padding-top:50px;">
+          <h2>Aspire, Inspire, Motivate</h2>
+          <h3>To know more details</h3>
+          <input type="button" name="" value="Click here"/>
+          </div>
+        </div>
       </div>
+
       <div class="col-xs-12 col-sm-4 col-md-4 colPadding disp">
         <a href="#" class="thumbnail speaker speakerName back" id="speaker2">
           <div id="onHoverGreen">
@@ -67,11 +77,21 @@
         </div>
         </a>
       </div>
-      <div class="col-xs-12 col-sm-4 col-md-4 colPadding">
-        <a href="#" class="thumbnail speaker" id="speaker3">
-          <span class="year white">2014</span>
-        </a>
-     </div>
+      
+      <div id="f1_container" class="col-xs-12 col-sm-4 col-md-4 colPadding">
+        <div id="f1_card">
+          <div class="front face">
+            <a href="#" class="thumbnail speaker back" id="speaker3">
+              <span class="year white">2014</span>
+            </a>
+          </div>      
+        <div class="back face center" style="padding-top:50px;">
+        <h2>Sept 19, 2014</h2>
+        <h3>To know the schedule of upcoming AIM conference</h3>
+        <input type="button" name="" value="Click here"/>
+        </div>
+      </div>
+    </div>     
    </div>
   <div class="row newRowTwo">
     <div class="col-xs-12 col-sm-4 col-md-4 colPadding disp">

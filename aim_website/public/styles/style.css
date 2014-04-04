@@ -1,0 +1,148 @@
+body {
+  padding-top: 60px;
+}
+.clear {
+  clear: both;
+}
+.center {
+  text-align: center;
+}
+.alignRight {
+  text-align: right;
+}
+.hover {
+  cursor: pointer;
+}
+.hover,
+img {
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+}
+.transition {
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+.shadow {
+  -webkit-box-shadow: 5px 5px 5px #aaa;
+  -moz-box-shadow: 5px 5px 5px #aaa;
+  box-shadow: 5px 5px 5px #aaa;
+  margin-bottom: 10px;
+}
+.selected {
+  font-weight: bold;
+}
+.browser_support {
+  text-align: center;
+}
+.browser_support p {
+  font-weight: bold;
+  font-size: 1.3em;
+}
+.gbanner {
+  width: 728px;
+  margin: 0 auto;
+}
+.affixed {
+  width: 140px;
+}
+.affix {
+  top: 60px;
+}
+section section {
+  margin-top: 25px;
+}
+footer {
+  margin-top: 20px;
+  padding-top: 10px;
+}
+.front_page td {
+  text-align: left;
+}
+.front_page td:last-of-type {
+  text-align: center;
+}
+.front_page .icon-remove {
+  color: red;
+}
+.front_page .icon-ok {
+  color: green;
+}
+.front_page .fb_edge_widget_with_comment {
+  position: relative;
+  top: -7px !important;
+}
+#footerLinks h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 1.4;
+}
+#footerLinks ul {
+  list-style-type: none;
+  margin-left: 0;
+}
+#footerBottom {
+  text-align: center;
+}
+.pager {
+  padding-top: 20px;
+  border-top: 1px #ccc solid;
+}
+.pager li {
+  margin: 10px;
+}
+.com {
+  color: #93a1a1;
+}
+.lit {
+  color: #195f91;
+}
+.pun,
+.opn,
+.clo {
+  color: #93a1a1;
+}
+.fun {
+  color: #dc322f;
+}
+.str,
+.atv {
+  color: #D14;
+}
+.kwd,
+.linenums .tag {
+  color: #1e347b;
+}
+.typ,
+.atn,
+.dec,
+.var {
+  color: teal;
+}
+.pln {
+  color: #48484c;
+}
+.prettyprint {
+  padding: 8px;
+  background-color: #f7f7f9;
+  border: 1px solid #e1e1e8;
+}
+.prettyprint.linenums {
+  -webkit-box-shadow: inset 40px 0 0 #fbfbfc, inset 41px 0 0 #ececf0;
+  -moz-box-shadow: inset 40px 0 0 #fbfbfc, inset 41px 0 0 #ececf0;
+  box-shadow: inset 40px 0 0 #fbfbfc, inset 41px 0 0 #ececf0;
+}
+/* Specify class=linenums on a pre to get line numbering */
+ol.linenums {
+  margin: 0 0 0 33px;
+  /* IE indents via margin-left */
+
+}
+ol.linenums li {
+  padding-left: 12px;
+  color: #bebec5;
+  line-height: 18px;
+  text-shadow: 0 1px 0 #fff;
+}
