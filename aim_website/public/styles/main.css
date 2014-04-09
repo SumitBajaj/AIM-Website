@@ -41,6 +41,22 @@ height: 476px;
 padding-top: 115px;
 text-align: center;
 }
+.colheighttwo
+{
+text-align: center;
+padding: 2%;
+}
+.colheightthree
+{
+text-align: center;
+height:243px;
+border:1px solid white;
+}
+.colalign
+{
+  padding-left: 30px;
+  padding-right: 30px;
+}
 .arrow
 {
   height: 54px;
