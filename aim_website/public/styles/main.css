@@ -1,16 +1,88 @@
-/* .visible a:active{
-    border-bottom:1px solid #323233;
-    border-top:1px solid #323233;
-    line-height:30px;
-    width:182px;
-    display:block;
-    margin-left:0;
-    padding-left:10px;
-  
-    font-size:15px;
-    font-family:arial,sans-serif;
-  
-  }*/
+.rowTimeline
+{
+  background-color: #E6E6E6;
+  margin-top: 62px;
+  padding-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.rowTimeline1
+{
+  padding-top:0px;
+  margin-top:-9px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.rowTimeline2
+{
+  padding-top:0px;
+  margin-top:0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.rowColorone
+{
+  background-color: #E87E04;
+}
+.rowColortwo
+{
+  background-color: #E6E6E6;
+}
+.two
+{
+  border-right: 2px;
+  border-right-style: dotted;
+  border-right-color: whitesmoke;
+}
+.colheight
+{
+height: 476px;
+padding-top: 115px;
+text-align: center;
+}
+.arrow
+{
+  height: 54px;
+  width: 109px;
+  margin:0 auto;
+  border-radius: 60px 60px 0px 0px;
+  margin-top: 13px;
+  padding: 9px;
+  text-align: center;
+}
+.timelinecontent
+{
+  font-size: 22px;
+  font-family: helvetica;
+}
+.arrowdown {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #E87E04;
+  margin: 0 auto;
+}
+.colorfirst
+{
+  background-color: #E87E04;
+}
+.colorsec
+{
+  background-color:#178C7A;
+}
+.yearTimeline
+{
+  font-size: 27px;
+  color:white;
+}
+
+
+
+
+
+
+
 
 #navProp.navbar-nav > li > a:active {
   background-color:red !important;
