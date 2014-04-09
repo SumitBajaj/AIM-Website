@@ -1,4 +1,11 @@
-
+#hide
+{
+  display: none;
+}
+#hideone
+{
+  display: none;
+}
 .rowTimeline
 {
   background-color: #E6E6E6;

@@ -23729,3 +23729,211 @@ ActionController::RoutingError (No route matches [GET] "/images/speaker24.jpg"):
   Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.0ms)
   Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.0ms)
   Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (119.0ms)
+
+
+Started GET "/images/speaker23.jpg" for 127.0.0.1 at 2014-04-09 22:10:28 +0530
+
+ActionController::RoutingError (No route matches [GET] "/images/speaker23.jpg"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (68.0ms)
+
+
+Started GET "/images/speaker24.jpg" for 127.0.0.1 at 2014-04-09 22:10:28 +0530
+
+ActionController::RoutingError (No route matches [GET] "/images/speaker24.jpg"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (91.0ms)
+
+
+Started GET "/images/speaker23.jpg" for 127.0.0.1 at 2014-04-09 22:10:35 +0530
+
+ActionController::RoutingError (No route matches [GET] "/images/speaker23.jpg"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (77.0ms)
+
+
+Started GET "/images/speaker24.jpg" for 127.0.0.1 at 2014-04-09 22:10:35 +0530
+
+ActionController::RoutingError (No route matches [GET] "/images/speaker24.jpg"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (72.0ms)
+
+
+Started POST "/registrations" for 127.0.0.1 at 2014-04-09 22:33:16 +0530
+Processing by RegistrationsController#create as */*
+  Parameters: {"first_name"=>"ads", "last_name"=>"afds", "email"=>"fd@fgh", "company_name"=>"gdf", "title"=>"fh"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mRegistration Exists (0.0ms)[0m  [1mSELECT 1 AS one FROM "registrations" WHERE "registrations"."email" = 'fd@fgh' LIMIT 1[0m
+  [1m[35mSQL (115.0ms)[0m  INSERT INTO "registrations" ("company_name", "created_at", "email", "first_name", "last_name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["company_name", "gdf"], ["created_at", Wed, 09 Apr 2014 17:03:17 UTC +00:00], ["email", "fd@fgh"], ["first_name", "ads"], ["last_name", "afds"], ["updated_at", Wed, 09 Apr 2014 17:03:17 UTC +00:00]]
+  [1m[36m (9.0ms)[0m  [1mcommit transaction[0m
+Completed 201 Created in 391ms (Views: 3.0ms | ActiveRecord: 125.0ms)
+
+
+Started POST "/registrations" for 127.0.0.1 at 2014-04-09 22:35:26 +0530
+Processing by RegistrationsController#create as */*
+  Parameters: {"first_name"=>"SA", "last_name"=>"FDC", "email"=>"dd@gb", "company_name"=>"d", "title"=>"jmbm"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mRegistration Exists (0.0ms)[0m  [1mSELECT 1 AS one FROM "registrations" WHERE "registrations"."email" = 'dd@gb' LIMIT 1[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "registrations" ("company_name", "created_at", "email", "first_name", "last_name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["company_name", "d"], ["created_at", Wed, 09 Apr 2014 17:05:26 UTC +00:00], ["email", "dd@gb"], ["first_name", "SA"], ["last_name", "FDC"], ["updated_at", Wed, 09 Apr 2014 17:05:26 UTC +00:00]]
+  [1m[36m (14.0ms)[0m  [1mcommit transaction[0m
+Completed 201 Created in 29ms (Views: 2.0ms | ActiveRecord: 15.0ms)
+
+
+Started POST "/registrations" for 127.0.0.1 at 2014-04-09 22:36:52 +0530
+Processing by RegistrationsController#create as */*
+  Parameters: {"first_name"=>"qeq", "last_name"=>"wer", "email"=>"a@ff", "company_name"=>"hgr", "title"=>"fghjjr"}
+  [1m[35m (1.0ms)[0m  begin transaction
+  [1m[36mRegistration Exists (1.0ms)[0m  [1mSELECT 1 AS one FROM "registrations" WHERE "registrations"."email" = 'a@ff' LIMIT 1[0m
+  [1m[35mSQL (2.0ms)[0m  INSERT INTO "registrations" ("company_name", "created_at", "email", "first_name", "last_name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["company_name", "hgr"], ["created_at", Wed, 09 Apr 2014 17:06:52 UTC +00:00], ["email", "a@ff"], ["first_name", "qeq"], ["last_name", "wer"], ["updated_at", Wed, 09 Apr 2014 17:06:52 UTC +00:00]]
+  [1m[36m (15.0ms)[0m  [1mcommit transaction[0m
+Completed 201 Created in 34ms (Views: 2.0ms | ActiveRecord: 19.0ms)
+
+
+Started POST "/registrations" for 127.0.0.1 at 2014-04-09 22:54:18 +0530
+Processing by RegistrationsController#create as */*
+  Parameters: {"first_name"=>"ew", "last_name"=>"sd", "email"=>"a@er", "company_name"=>"fd", "topic"=>""}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mRegistration Exists (1.0ms)[0m  [1mSELECT 1 AS one FROM "registrations" WHERE "registrations"."email" = 'a@er' LIMIT 1[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "registrations" ("company_name", "created_at", "email", "first_name", "last_name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["company_name", "fd"], ["created_at", Wed, 09 Apr 2014 17:24:18 UTC +00:00], ["email", "a@er"], ["first_name", "ew"], ["last_name", "sd"], ["updated_at", Wed, 09 Apr 2014 17:24:18 UTC +00:00]]
+  [1m[36m (11.0ms)[0m  [1mcommit transaction[0m
+Completed 201 Created in 25ms (Views: 1.0ms | ActiveRecord: 13.0ms)
+
+
+Started POST "/registrations" for 127.0.0.1 at 2014-04-09 22:54:35 +0530
+Processing by RegistrationsController#create as */*
+  Parameters: {"first_name"=>"asd", "last_name"=>"SDCaZXc", "email"=>"ds@fdvcqfsdv", "company_name"=>"fdcv", "topic"=>""}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mRegistration Exists (1.0ms)[0m  [1mSELECT 1 AS one FROM "registrations" WHERE "registrations"."email" = 'ds@fdvcqfsdv' LIMIT 1[0m
+  [1m[35mSQL (3.0ms)[0m  INSERT INTO "registrations" ("company_name", "created_at", "email", "first_name", "last_name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["company_name", "fdcv"], ["created_at", Wed, 09 Apr 2014 17:24:35 UTC +00:00], ["email", "ds@fdvcqfsdv"], ["first_name", "asd"], ["last_name", "SDCaZXc"], ["updated_at", Wed, 09 Apr 2014 17:24:35 UTC +00:00]]
+  [1m[36m (61.0ms)[0m  [1mcommit transaction[0m
+Completed 201 Created in 76ms (Views: 1.0ms | ActiveRecord: 65.0ms)
+
+
+Started POST "/registrations" for 127.0.0.1 at 2014-04-09 22:55:45 +0530
+Processing by RegistrationsController#create as */*
+  Parameters: {"first_name"=>"dsfd", "last_name"=>"fd", "email"=>"ss@df", "company_name"=>"fd", "topic"=>""}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mRegistration Exists (1.0ms)[0m  [1mSELECT 1 AS one FROM "registrations" WHERE "registrations"."email" = 'ss@df' LIMIT 1[0m
+  [1m[35mSQL (2.0ms)[0m  INSERT INTO "registrations" ("company_name", "created_at", "email", "first_name", "last_name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["company_name", "fd"], ["created_at", Wed, 09 Apr 2014 17:25:45 UTC +00:00], ["email", "ss@df"], ["first_name", "dsfd"], ["last_name", "fd"], ["updated_at", Wed, 09 Apr 2014 17:25:45 UTC +00:00]]
+  [1m[36m (13.0ms)[0m  [1mcommit transaction[0m
+Completed 201 Created in 27ms (Views: 2.0ms | ActiveRecord: 16.0ms)
+
+
+Started POST "/registrations" for 127.0.0.1 at 2014-04-09 23:02:12 +0530
+Processing by RegistrationsController#create as */*
+  Parameters: {"first_name"=>"sd", "last_name"=>"fdgs", "email"=>"sgds@rer4", "company_name"=>"zgd", "topic"=>""}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mRegistration Exists (1.0ms)[0m  [1mSELECT 1 AS one FROM "registrations" WHERE "registrations"."email" = 'sgds@rer4' LIMIT 1[0m
+  [1m[35mSQL (2.0ms)[0m  INSERT INTO "registrations" ("company_name", "created_at", "email", "first_name", "last_name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["company_name", "zgd"], ["created_at", Wed, 09 Apr 2014 17:32:12 UTC +00:00], ["email", "sgds@rer4"], ["first_name", "sd"], ["last_name", "fdgs"], ["updated_at", Wed, 09 Apr 2014 17:32:12 UTC +00:00]]
+  [1m[36m (11.0ms)[0m  [1mcommit transaction[0m
+Completed 201 Created in 25ms (Views: 1.0ms | ActiveRecord: 14.0ms)
+
+
+Started POST "/registrations" for 127.0.0.1 at 2014-04-09 23:02:33 +0530
+Processing by RegistrationsController#create as */*
+  Parameters: {"first_name"=>"qae", "last_name"=>"dw", "email"=>"we@rr", "company_name"=>"dsd", "topic"=>"asr"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mRegistration Exists (1.0ms)[0m  [1mSELECT 1 AS one FROM "registrations" WHERE "registrations"."email" = 'we@rr' LIMIT 1[0m
+  [1m[35mSQL (2.0ms)[0m  INSERT INTO "registrations" ("company_name", "created_at", "email", "first_name", "last_name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["company_name", "dsd"], ["created_at", Wed, 09 Apr 2014 17:32:33 UTC +00:00], ["email", "we@rr"], ["first_name", "qae"], ["last_name", "dw"], ["updated_at", Wed, 09 Apr 2014 17:32:33 UTC +00:00]]
+  [1m[36m (13.0ms)[0m  [1mcommit transaction[0m
+Completed 201 Created in 28ms (Views: 1.0ms | ActiveRecord: 16.0ms)

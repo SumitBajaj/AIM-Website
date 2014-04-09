@@ -21,34 +21,45 @@ $(document).ready(function(){
               return false;
             }
       });
-  /*$('#first_name').blur(function () {
-            if ($('#first_name').val() == '' || $('#first_name').val() == 'First Name') {
-                alert("Please enter your first name \n");
+  $("#role").change(function(){
+    // console.log($("#role").val());
+    if($("#role").val()=="speaker")
+    {
+      $("#hide").show();
+      $("#hideone").show();
+        if ($('#topic').val() == '' || $('#topic').val() == 'Topic') {
+                alert("Please enter your topic \n");
                 return false;
-            }
-
-        });
-    $('#last_name').blur(function () {
-            if ($('#last_name').val() == '' || $('#last_name').val() == 'Last Name') {
-                alert("Please enter your last name \n");
+            };
+   if ($('#briefdescription').val() == '' || $('#briefdescription').val() == 'Last Name') {
+                alert("Please enter brief description of your topic\n");
                 return false;
-            }
+            };
+    }
+//     else
+//     {
+//       if($("#role").val()=="attendee")
+//     {
+//       $("#hide").hide();
+//       $("#hideone").hide();
+//     }
+// }
+  });
+ 
+        //   $('#email').blur(function () {
+        //     if ($('#email').val() == '' || (atpos<1 || dotpos<atpos+2 || dotpos+2>=x.length) || x=='Your E-mail Address') {
+        //         alert("Please enter your email address \n");
+        //         return false;
+        //     }
 
-        });
-          $('#email').blur(function () {
-            if ($('#email').val() == '' || (atpos<1 || dotpos<atpos+2 || dotpos+2>=x.length) || x=='Your E-mail Address') {
-                alert("Please enter your email address \n");
-                return false;
-            }
+        // });
+        //     $('#company_name').blur(function () {
+        //     if ($('#company_name').val() == '' || $('#company_name').val() == 'Company Name') {
+        //         alert("Please enter your company name \n");
+        //         return false;
+        //     }
 
-        });
-            $('#company_name').blur(function () {
-            if ($('#company_name').val() == '' || $('#company_name').val() == 'Company Name') {
-                alert("Please enter your company name \n");
-                return false;
-            }
-
-        });*/
+        // });
 
      $('#register').on('submit', function(e) {
 

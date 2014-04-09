@@ -73,7 +73,23 @@
               <div>
             <label for="company_name">Company Name:</label>
             <input id="company_name" name="company_name" value="" placeholder="Company name" required >
-            <!--<span id="name-format" class="help">Format: firstname lastname</span>-->
+        </div>
+        <div>
+          <label for="register_as">Register As:</label>
+          <select id="role" required>
+            <option value="select_your_role">Select Your Role</option>
+            <option value="attendee">Attendee</option>
+            <option value="speaker">Speaker</option>
+          </select>
+        </div>
+        <div id="hide">
+          <label for="topic">Topic:</label>
+            <input type="text" id="topic" onBlur name="topic" value="" placeholder="Topic">
+        </div>
+        <div id="hideone">
+          <label for="briefdescription">Brief Description:</label>
+          <textarea rows="4" cols="50" onBlur placeholder="Brief Description">            
+          </textarea>
         </div>
         <div class="submit">
             <input type="submit" value="Submit">
