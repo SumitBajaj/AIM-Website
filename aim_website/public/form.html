@@ -22,32 +22,35 @@
     <!-- endbuild -->
 
   </head>
-  <body>
+  <body ng-app="aimWebsiteApp">
+     <!--Navbar starts from here -->
       <div class="header">
-    <nav class="navbar navbar-default navbar-fixed-top fixedBorder" id="visibleNav" role="navigation">
+    <nav class="navbar navbar-default navbar-fixed-top fixedBorder fixedBorderWidth" id="visibleNav" role="navigation">
       <div class="container-fluid">
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
-          </button>
+          </button>  
+    <a class="navbar-brand" href="#">AIM</a>   
         </div>
-      <div class="collapse-navbar-collapse collapseOne" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav navv">
-          <li class="visible"><a href="../main.html#home">Home</a></li>
-          <li class="visible"><img src="images/speaker.png" alt="..." class="navImage dispNav"><a href="../main.html#speakers">Speakers</a></li>
-          <li class="visible"><img src="images/information.png" alt="..." class="navImage dispNav"><a href="../main.html#why_attend">Why Attend</a></li>
-          <li class="visible"><img src="images/question.png" alt="..." class="navImage dispNav"><a href="../main.html#what_we_did">What We Did</a></li>
-          <li class="visible"><img src="images/venue.png" alt="..." class="navImage dispNav"><a href="../main.html#venue">Venue</a></li>
-          <li class="visible"><img src="images/schedule.png" alt="..." class="navImage dispNav"><a href="../main.html#schedule">Schedule</a></li>
+        <div class="navbar-collapse collapse collapseOne" id="navProp">
+        <ul class="nav navbar-nav navv" id="top-menu">
+          <li class="visible"><span class="redIcon dispNav"><i class="fa fa-home fa-lg"></i></span><a href="../main.html#home" id="visible1">Home</a></li>
+          <li class="visible"><img src="images/speaker.png" alt="..." class="navImage dispNav"><a href="../main.html#speakers" id="visible2">Speakers</a></li>
+          <li class="visible"><img src="images/information.png" alt="..." class="navImage dispNav"><a href="../main.html#why_attend" id="visible3">Why Attend</a></li>
+          <li class="visible"><img src="images/question.png" alt="..." class="navImage dispNav"><a href="../main.html#what_we_did" id="visible4">What We Did</a></li>
+          <li class="visible"><img src="images/venue.png" alt="..." class="navImage dispNav"><a href="../main.html#venue" id="visible5">Venue</a></li>
+          <li class="visible"><img src="images/schedule.png" alt="..." class="navImage dispNav"><a href="../main.html#schedule" id="visible6">Schedule</a></li>
           <li><a href="form.html">Register</a></li>          
         </ul>
       </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
     </nav>
   </div>
+<!-- Navbar ends here -->
   <div class="message"></div>
   <div class="signup" style="width:1366px; margin-left:20%; margin-right:20%;margin-top:10%;">
         <form name="register"  id="register" action="/registrations#create" onsubmit="return validateForm();" method="post">
