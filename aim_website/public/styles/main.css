@@ -1693,3 +1693,15 @@ input:focus + .help {
 div.submit {
     margin-left:100px;
 }
+.carousel-display {
+  position: relative;
+}
+.carousel-display img, .carousel-thumbs img {
+  width: 100%;
+}
+.carousel-thumbs img {
+  opacity: 0.4
+}
+.carousel-thumbs .active > img {
+  opacity: 1
+}
