@@ -1,7 +1,31 @@
 $(document).ready(function(){
+$(function(){
+  function stripTrailingSlash(str) {
+    if(str.substr(-1) == '/') {
+      return str.substr(0, str.length - 1);
+    }
+    return str;
+  }
+
+ 	var url = window.location.hash; 
+	var urlPath= window.location.pathname;
+  	var activePage = stripTrailingSlash(url);
+	var activePagePath = stripTrailingSlash(urlPath);
+   $('.nav li a').each(function(){  
+    var currentPage = stripTrailingSlash($(this).attr('href'));
+	console.log(currentPage);
+    if ((activePage == currentPage)||activePagePath==currentPage) {
+	var clickIndex = $(this).parent().index();
+    	$(".nav li").css('opacity', '1');
+        $(".nav li:not(:nth-child("+(clickIndex+1)+"))").css('opacity', '0.5');
+        $(".nav li:last-child").css('opacity', '1');
+    } 
+  });
+});
 
   $(".nav li a").on('click', function(){
     var clickIndex = $(this).parent().index();
+	console.log(clickIndex);
     $(".nav li").css('opacity', '1');
     $(".nav li:not(:nth-child("+(clickIndex+1)+"))").css('opacity', '0.5');
     $(".nav li:last-child").css('opacity', '1');
@@ -9,8 +33,6 @@ $(document).ready(function(){
   $("a").click(function(){
             if(this.hash){
                 var hash = this.hash.substr(1);
-                // console.log("hash"+hash);
-                //$('nav li:not('+hash+')').css('opacity','0.5');
                 var $toElement = $("a[name="+hash+"]");
             var toPosition = $toElement.position().top;
             toPosition=toPosition-51;            
@@ -36,30 +58,8 @@ $(document).ready(function(){
                 return false;
             };
     }
-//     else
-//     {
-//       if($("#role").val()=="attendee")
-//     {
-//       $("#hide").hide();
-//       $("#hideone").hide();
-//     }
-// }
   });
- 
-        //   $('#email').blur(function () {
-        //     if ($('#email').val() == '' || (atpos<1 || dotpos<atpos+2 || dotpos+2>=x.length) || x=='Your E-mail Address') {
-        //         alert("Please enter your email address \n");
-        //         return false;
-        //     }
 
-        // });
-        //     $('#company_name').blur(function () {
-        //     if ($('#company_name').val() == '' || $('#company_name').val() == 'Company Name') {
-        //         alert("Please enter your company name \n");
-        //         return false;
-        //     }
-
-        // });
 
      $('#register').on('submit', function(e) {
 
@@ -67,7 +67,6 @@ $(document).ready(function(){
           $(".signup").html("<h2>Registration Form Submitted</h2>");
         }).error(function (XMLHttpRequest, textStatus, errorThrown) {
           var errors = $.parseJSON(XMLHttpRequest.responseText);
-          //alert(errors);
           $(".message").html(errors);
         });
         e.preventDefault();
@@ -98,9 +97,6 @@ $(document).ready(function(){
 
      $(".visibleArrow a i").on('click', function(){
              var teamId = $(this).attr("id");
-              //alert($(".visibleArrow a i").children("a").attr("href"));
-            //   alert("hi");
-           // alert(teamId);
                      $(".visible a").each(function () {
        tempId=$(this).attr("id");
               
