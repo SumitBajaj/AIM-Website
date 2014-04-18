@@ -23,6 +23,49 @@ $(function(){
   });
 });
 
+
+$(window).scroll(function() {
+
+
+//alert("hi"); alert($('section[data-anchor="home1"]'));
+    if ($(this).scrollTop()+200 < $('section[data-anchor="home1"]').offset().top) {
+        $('nav a').removeClass('active');
+    }
+    
+    //alert($('section[data-anchor="home1"]').offset());
+    if ($(this).scrollTop()+200 >= $('section[data-anchor="home1"]').offset().top) {
+       // $('nav a').removeClass('active');
+      //  $('nav li:eq(0) a').addClass('active');
+ 	$('nav li').css('opacity','0.5');
+        $('nav li:eq(0)').css('opacity','1');
+    }
+    if ($(this).scrollTop()+200 >= $('section[data-anchor="what_we_did1"]').offset().top) {
+       $('nav li').css('opacity','0.5');
+        $('nav li:eq(0)').css('opacity','1');
+    }
+    if ($(this).scrollTop()+200 >= $('section[data-anchor="speakers1"]').offset().top) {
+        $('nav li').css('opacity','0.5');
+        $('nav li:eq(1)').css('opacity','1');
+    }
+    if ($(this).scrollTop()+200 >= $('section[data-anchor="why_attend1"]').offset().top) {
+        $('nav li').css('opacity','0.5');
+        $('nav li:eq(2)').css('opacity','1');
+    }
+    if ($(this).scrollTop()+200 >= $('section[data-anchor="venue1"]').offset().top) {
+        $('nav li').css('opacity','0.5');
+        $('nav li:eq(4)').css('opacity','1');
+    }
+    if ($(this).scrollTop()+200 >= $('section[data-anchor="schedule1"]').offset().top) {
+        $('nav li').css('opacity','0.5');
+        $('nav li:eq(5)').css('opacity','1');
+    }
+
+});
+
+//window scroll
+
+
+
   $(".nav li a").on('click', function(){
     var clickIndex = $(this).parent().index();
 	console.log(clickIndex);

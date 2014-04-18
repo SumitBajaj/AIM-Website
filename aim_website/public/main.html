@@ -38,13 +38,13 @@
         </div>
         <div class="navbar-collapse collapse collapseOne" id="navProp">
         <ul class="nav navbar-nav navv" id="top-menu">
-          <li class="visible"><span class="redIcon dispNav"><i class="fa fa-home fa-lg"></i></span><a href="#home" id="visible1">Home</a></li>
-          <li class="visible"><img src="images/speaker.png" alt="..." class="navImage dispNav"><a href="#speakers" id="visible2">Speakers</a></li>
-          <li class="visible"><img src="images/information.png" alt="..." class="navImage dispNav"><a href="#why_attend" id="visible3">Why Attend</a></li>
-          <li class="visible"><img src="images/question.png" alt="..." class="navImage dispNav"><a href="timeline.html" id="visible4">What We Did</a></li>
-          <li class="visible"><img src="images/venue.png" alt="..." class="navImage dispNav"><a href="#venue" id="visible5">Venue</a></li>
-          <li class="visible"><img src="images/schedule.png" alt="..." class="navImage dispNav"><a href="#schedule" id="visible6">Schedule</a></li>
-          <li><a href="form.html">Register</a></li>          
+          <li class="visible"><span class="redIcon dispNav"><i class="fa fa-home fa-lg"></i></span><a href="#home" id="visible1" data-scroll="home1">Home</a></li>
+          <li class="visible"><img src="images/speaker.png" alt="..." class="navImage dispNav"><a href="#speakers" id="visible2" data-scroll="speakers1">Speakers</a></li>
+          <li class="visible"><img src="images/information.png" alt="..." class="navImage dispNav"><a href="#why_attend" id="visible3" data-scroll="why_attend1">Why Attend</a></li>
+          <li class="visible"><img src="images/question.png" alt="..." class="navImage dispNav"><a href="timeline.html" id="visible4" data-scroll="what_we_did1">What We Did</a></li>
+          <li class="visible"><img src="images/venue.png" alt="..." class="navImage dispNav"><a href="#venue" id="visible5" data-scroll="venue1">Venue</a></li>
+          <li class="visible"><img src="images/schedule.png" alt="..." class="navImage dispNav"><a href="#schedule" id="visible6" data-scroll="schedule1">Schedule</a></li>
+          <li><a href="form.html" data-scroll="register">Register</a></li>          
         </ul>
       </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
@@ -52,7 +52,9 @@
   </div>
 <!-- Navbar ends here -->
 <!--Page1 starts from here -->
+
 <a name="home"><a>
+<section id ="home1" data-anchor="home1">
    <div class="row newRowOne">
       <div id="f1_container" class="col-xs-12 col-sm-4 col-md-4 colPadding">
         <div id="f1_card">
@@ -115,10 +117,13 @@
         </a>
       </div>
     </div>
+</section>
     <!-- Page1 ends here -->
   
   <!-- Page 2 starts from here -->  
+
   <a name="what_we_did"></a>
+<section id ="what_we_did1" data-anchor="what_we_did1">
     <div class="row rowSpeaker aimPage" id="secondPage">  
 
       <div class="row rowSpeaker ">
@@ -172,9 +177,12 @@
       Walk out inspired.
     </div>  
   </div>
+</section>
 <!-- Page2 ends here -->
   <!-- Page 3 starts from here -->
+
   <a name="speakers"></a>
+<section id="speakers1" data-anchor="speakers1">
     <div class="row marketing rowSpeakers">
       <div class="speakers">
           SPEAKERS
@@ -284,11 +292,13 @@
         </div><div class="visibleArrow"><a href="#why_attend"><i class="fa fa-chevron-circle-down fa-4x blueButton" id="visible3"></i></a></div>
       </div>
     </div>
+</section>
   <!-- Page3 ends here -->
   
   <!-- Page 4 starts from here -->
 
-    <a name="why_attend"></a>
+    <a name="why_attend" id="why_attend"></a>
+<section id="why_attend1" data-anchor="why_attend1">
     <div class="row marketing page4 rowWhyAttend">
       <div class="speakers">
           <span class="white">WHY ATTEND
@@ -398,10 +408,12 @@
         </div>
       </div><div class="visibleArrow"><a href="#venue"  data-matchId="visible3"><i class="fa fa-chevron-circle-down fa-4x whiteButton" id="visible5"></i></a></div>
     </div>  
+</section>
   <!-- Page4 ends here -->
   
-  <!-- Page 5 starts from here -->  
-  <a name="venue"></a>
+  <!-- Page 5 starts from here --> 
+  <a  name="venue"></a>
+<section id="venue1" data-anchor="venue1">
     <div class="row-marketing rowSpeakers rowPaddingBottom">
       <div class="speakers">
           <span class="venueColor">VENUE</span>
@@ -455,7 +467,7 @@
         <div class="col-sm-2 col-md-2 venueColPadding">
           <span class="setFont boldFont">Train:</span></br>
           <span class="setFont">Route from station to venue comes here</span>
-        </div><div class="visibleArrow"><a href="#schedule" data-matchid="visible5"><i class="fa fa-chevron-circle-down fa-4x whiteButton"  id="visible6"></i></a></div>
+        </div><div class="visibleArrow"><a href="#schedule1" data-matchid="visible5"><i class="fa fa-chevron-circle-down fa-4x whiteButton"  id="visible6"></i></a></div>
       </div>
       <div class="row rowSpeaker">
         <div class="col-sm-12 col-md-12 col-lg-12 colPadding line"> 
@@ -466,11 +478,13 @@
       </div>
      </div>   
     </div>
-  
+</section>
   <!-- Page5 ends here -->
 
   <!-- Page 6 starts from here -->
+
   <a name="schedule"></a>
+<section id="schedule1" data-anchor="schedule1">
   <div class="row-marketing rowSpeakers page5 rowPaddingBottom">
     <div class="speakers">
       <span class="white">SCHEDULE</span>
@@ -524,6 +538,7 @@
         </div>
       </div>
   </div>  
+</section>
   <!-- Page6 ends here -->
 
 
@@ -549,7 +564,7 @@
         <script src="scripts/controllers/main.js"></script>
         <script src="scripts/jquery.easing-1.3.min.js"></script>
         <script src="scripts/page-scroll.js"></script>
-        <script src="scripts/opacity.js"></script>
+       
         <!-- endbuild -->
 </body>
 </html>

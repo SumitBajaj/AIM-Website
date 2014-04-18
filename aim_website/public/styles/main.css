@@ -1705,3 +1705,6 @@ div.submit {
 .carousel-thumbs .active > img {
   opacity: 1
 }
+section{
+ position:relative;
+}
